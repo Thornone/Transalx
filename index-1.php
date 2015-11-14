@@ -65,41 +65,22 @@
 							<nav class="nav navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
 								<ul class="sf-menu">
 									<li class="active">
-										<a href="index.php">Home</a>
+										<a href="index.php">Inicio</a>
+									</li>
+									
+									<li>
+										<a href="index-2.php">Nosotros</a>
 									</li>
 									<li>
-										<a href="index-1.php">about us</a>
-									</li>
-									<li>
-										<a href="index-2.php">Languages</a>
-									</li>
-									<li>
-										<a href="index-3.php">Services</a>
-										<ul>
+										<a href="index-3.php">Servicios</a>
+									<ul>
 											<li>
-												<a href="#">Dolore ipsu</a>
+												<a href="http://comextaa.com/documents/29.html">Enlaces</a>
 											</li>
-											<li>
-												<a href="#">Consecte</a>
-												<ul>
-													<li>
-														<a href="#">Dolore ipsu</a>
-													</li>
-													<li>
-														<a href="#">Consecte</a>
-													</li>
-													<li>
-														<a href="#">Elit Conseq</a>
-													</li>
-												</ul>
-											</li>
-											<li>
-												<a href="#">Elit Conseq</a>
-											</li>
-										</ul>
 									</li>
+									</ul>
 									<li>
-										<a href="index-4.php">contacts</a>
+										<a href="index-4.php">Contactanos</a>
 									</li>
 								</ul>
 							</nav>
@@ -307,35 +288,57 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 					<div class="footer_info">
 						<div class="wrapper">
-							Telephone: +1 800 603 6035
-							<br> E-mail: mail@demolink.org
+						<strong>Laredo Texas</strong>
+						<br><strong>G & G Forwarding, INC</strong>
+							Telefono: + (956) 727-0069 & (956) 727-0067
+							FAX: (956) 725-9156
+							<br> E-mail: paola@comextaa.com
+							<br>Killam Industrial Park
+							<br>Laredo, TX 78045
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="footer_address">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<div class="footer_info">
 						<div class="wrapper">
-							<strong>Transalx</strong>28 Jackson Blvd Ste 1020
-							<br>Chicago, IL 60604-2340
+						<strong>Laredo Texas</strong>
+						<br><strong>Executive Express Forwarding Agency, INC</strong>
+							Telefono: + (956) 725-9159
+							FAX: (956) 725-9156
+							<br> E-mail: paola@comextaa.com
+							<br>13599 N. Lamar St
+							<br>Laredo, TX 78045
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="footer_privacy"><span class="pr_brand">Transalx </span> &copy; <span id="copyright-year"></span> |<a href="index-5.html" class="link email"> Privacy policy</a>
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<div class="footer_info">
+						<div class="wrapper">
+						<strong>Nuevo Laredo, Tamaulipas, Mexico</strong>
+						<br><strong>Comercio Exterior de Nuevo Laredo, S.C.</strong>
+							Telefono: + (867) 715-7383
+							FAX: (867) 714-9545
+							<br> E-mail: lourdes@comextaa.com
+							<br>Baja California #2529 ALTOS 
+							<br>Nuevo Laredo, Tam. 88240 
+						</div>
 					</div>
-					<ul class="list social-list">
-						<li><a href="#"><i class="fa fa-facebook"></i></a>
-						</li>
-						<li><a href="#"><i class="fa fa-rss"></i></a>
-						</li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a>
-						</li>
-						<li><a href="#"><i class="fa fa-google-plus"></i></a>
-						</li>
-					</ul>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<div class="footer_info">
+						<div class="wrapper">
+						<strong>Manzanillo, Col</strong>
+						<br><strong>Comextaa, S.C.</strong>
+							Telefono: + (314) 334-3039 y 79
+							FAX: (867) 714-9545
+							<br> E-mail: lizbeth@comextaa.com
+							<br>Av. Elias Zamora Verduzco No. 57, Interior 101 y 102
+							<br>Manzanillo, Col. 28219
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -21,8 +21,8 @@
 	
 	<script src="js/camera.min.js"></script>
 	<script src="js/jquery.equalheights.min.js"></script>
-	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/jquery-migrate-1.2.1.min.js"></script>
 	<script>
 		jQuery(document).ready(function () {
 			jQuery('.camera_wrap').camera({
@@ -80,41 +80,24 @@
 							<nav class="nav navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
 								<ul class="sf-menu">
 									<li class="active">
-										<a href="index.php">Home</a>
+										<a href="index.php">Inicio</a>
+									</li>
+									
+									<li>
+										<a href="index-2.php">Nosotros</a>
 									</li>
 									<li>
-										<a href="index-1.php">about us</a>
-									</li>
-									<li>
-										<a href="index-2.php">Languages</a>
-									</li>
-									<li>
-										<a href="index-3.php">Services</a>
-										<ul>
+										<a href="index-3.php">Servicios</a>
+									<ul>
 											<li>
-												<a href="#">Dolore ipsu</a>
+												<a href="http://comextaa.com/documents/29.html">Enlaces</a>
 											</li>
-											<li>
-												<a href="#">Consecte</a>
-												<ul>
-													<li>
-														<a href="#">Dolore ipsu</a>
-													</li>
-													<li>
-														<a href="#">Consecte</a>
-													</li>
-													<li>
-														<a href="#">Elit Conseq</a>
-													</li>
-												</ul>
-											</li>
-											<li>
-												<a href="#">Elit Conseq</a>
-											</li>
-										</ul>
+									
+									</ul>
 									</li>
 									<li>
-										<a href="index-4.php">contacts</a>
+										<a href="index-4.php">Contactanos</a>
+									</li>
 									</li>
 								</ul>
 							</nav>
@@ -130,7 +113,7 @@
 	<div class="camera_block">
 		<div class="caption_bg"></div>
 		<div class="camera_wrap">
-			<div data-src="images/page1-slide1.jpg">
+			<div data-src="img/page1-slide1.jpg">
 				<div class="camera_caption">
 					<div class="container">
 						<div class="row">
@@ -141,7 +124,7 @@
 					</div>
 				</div>
 			</div>
-			<div data-src="images/page1-slide2.jpg">
+			<div data-src="img/page1-slide2.jpg">
 				<div class="camera_caption">
 					<div class="container">
 						<div class="row">
@@ -152,7 +135,7 @@
 					</div>
 				</div>
 			</div>
-			<div data-src="images/page1-slide3.jpg">
+			<div data-src="img/page1-slide3.jpg">
 				<div class="camera_caption">
 					<div class="container">
 						<div class="row">
@@ -168,93 +151,43 @@
 	<!--========================================================
                         	CONTENT
 	=========================================================-->
-	<div id="content">
-		<div class="block-1 bg-1">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-								<div class="box box-1">
-									<span class="badge">01</span>
-									<h4>Translation <br>memory</h4>
-									<h5>dolore ipsum</h5>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit, bibendum et condimentum metusip dolore.</p>
-									<a href="#" class="btn-default btn btn-1"><i class="fa fa-file-text-o"></i></a>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-								<div class="box box-1">
-									<span class="badge">02</span>
-									<h4>DESKTOP <br>PUBLISHING</h4>
-									<h5>dolore ipsum</h5>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit, bibendum et condimentum metusip dolore.</p>
-									<a href="#" class="btn-default btn btn-1"><i class="fa fa-file-text-o"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-								<div class="box box-1">
-									<span class="badge">03</span>
-									<h4>Terminology <br>management </h4>
-									<h5>dolore ipsum</h5>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit, bibendum et condimentum metusip dolore.</p>
-									<a href="#" class="btn-default btn btn-1"><i class="fa fa-file-text-o"></i></a>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-								<div class="box box-1">
-									<span class="badge">04</span>
-									<h4>Proxy <br>translation</h4>
-									<h5>dolore ipsum</h5>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum velit, bibendum et condimentum metusip dolore.</p>
-									<a href="#" class="btn-default btn btn-1"><i class="fa fa-file-text-o"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+	
 		<div class="block-2 bg-2">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-						<h3 class="title title-1">Why You <br>Prefer Us?</h3>
+						<h3 class="title title-1">Porque seriamos<br>su Elección?</h3>
 						<div class="box box-2">
-							<h5>Mes cuml dia sed ineniasinge dolor commete ipsum comnetus.</h5>
-							<p>Dolor nunc vule putateulr ips dol consec.Donec semp ertet laciniate ultricie upien disse comete dolo lectus fgilla itollicil tua ludin dolor nec met quam accumsan dolore. Condime netus lullam utlacus adipiscing ipsum molestie.</p>
-							<a href="#" class="btn-default btn btn-1"><i class="fa fa-file-text-o"></i></a>
+							<h5>20 Años de Experiencia y 11 Oficinas para Servirle</h5>
+							<p>Con Nuestra presencia a lo largo de la  frontera, COMERCIO EXTERIOR puede ser su puente entre EE, UU El resto del Mundo y Mexico. Tenemos la experiencia de mas de 29 Años y la solvencia para resolver cualquier tipo de incidencia que pudieran interferir con sus embarques, asegurandoasi operaciones sin problemas.</p>
+							
 						</div>
 					</div>
 					<div class="col-lg-8 col-md-8 col-sm-6 col-xs-6">
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-								<h3 class="title title-2">What we <br>Offer</h3>
+								<h3 class="title title-2">Que <br>Ofrecemos?</h3>
 								<div class="thumb-pad-1">
 									<div class="thumbnail">
-										<img src="images/page1-img1.jpg" alt="photo">
+										<img src="img/page1-img1.jpg" alt="photo">
 										<div class="caption">
-											<h5>Lila clome</h5>
-											<h5>dolore ipsum</h5>
-											<p>Dolor nunc vule putateulr ips dol consec.Donec sem ertet laciniate ultricie upie. </p>
-											<p>Dolor nunc vule putateulr ips dol consec.Donec semp ertet laciniate ultricie upien disse comete dolo lectus fgilla itollicil tua ludin dolor nec met quam accumsan. Dolore condime netus lullam ipsu utlacus adipiscing ipsum.</p>
+											<h5>Comunicacion Permanente</h5>
+											<h5>con el Cliente</h5>
+											<p>Sin embargo, consideramos que nuestra mayor y mejor herramienta consiste en una permanente comunicacion con nuestros clientes.</p>
+											<p>Lo que nos permite en todo momento conocer de primera mano sus circunstancias especificas y sus necesidades, por lo que creemos que apartir de una entrevista coordial y amistosa, identificaremos mas precisamente los objetivos especificos y la mejor formula para su atención.</p>
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 								<ul class="list list-1 indent">
-									<li><a href="#">Lorem ipsum dolor sit amet.</a>
+									<li><a href="">Servicios Aduanales.</a>
 									</li>
-									<li><a href="#">consectetur adipiscing elit. </a>
+									<li><a href="">Servicios de Transportaciòn Mundial. </a>
 									</li>
-									<li><a href="#">In euismod est quis arcu.</a>
+									<li><a href="">Servicios de Logística.</a>
 									</li>
-									<li><a href="#">venenatis imperdiet Etiam in.</a>
+									<li><a href="">Servicios de Almacenes.</a>
 									</li>
 								</ul>
 							</div>
@@ -263,64 +196,17 @@
 				</div>
 			</div>
 		</div>
-		<div class="block-3 bg-3">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-						<div class="box box-3">
-							<h4 class="fa fa-file-text-o">Document Translation</h4>
-							<h5>Dolor nunc vule puta</h5>
-							<p>Dolor nunc vule putateulr ips dol consem donec semp ertet lacini ate ultricie upien disse comete dolo lectus fgill itollicil tua ludin dolor nec met quam accumsan ipsun. </p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-						<div class="box box-3">
-							<h4 class="fa fa-desktop">Website <br>Translation</h4>
-							<h5>Dolor nunc vule puta</h5>
-							<p>Dolor nunc vule putateulr ips dol consem donec semp ertet lacini ate ultricie upien disse comete dolo lectus fgill itollicil tua ludin dolor nec met quam accumsan ipsun. </p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-						<div class="box box-3">
-							<h4 class="fa fa-check-square-o">Proofreading <br>Service</h4>
-							<h5>Dolor nunc vule puta</h5>
-							<p>Dolor nunc vule putateulr ips dol consem donec semp ertet lacini ate ultricie upien disse comete dolo lectus fgill itollicil tua ludin dolor nec met quam accumsan ipsun. </p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-						<div class="box box-3">
-							<h4 class="fa fa-headphones">Audio & Video <br>Translation</h4>
-							<h5>Dolor nunc vule puta</h5>
-							<p>Dolor nunc vule putateulr ips dol consem donec semp ertet lacini ate ultricie upien disse comete dolo lectus fgill itollicil tua ludin dolor nec met quam accumsan ipsun. </p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-						<div class="box box-3">
-							<h4 class="fa fa-globe">Multilingual <br>Research</h4>
-							<h5>Dolor nunc vule puta</h5>
-							<p>Dolor nunc vule putateulr ips dol consem donec semp ertet lacini ate ultricie upien disse comete dolo lectus fgill itollicil tua ludin dolor nec met quam accumsan ipsun. </p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-						<div class="box box-3">
-							<h4 class="fa fa-comments">Interpreting <br>Services</h4>
-							<h5>Dolor nunc vule puta</h5>
-							<p>Dolor nunc vule putateulr ips dol consem donec semp ertet lacini ate ultricie upien disse comete dolo lectus fgill itollicil tua ludin dolor nec met quam accumsan ipsun. </p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		
 		<div class="block-1 bg-2">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 						<div class="box box-4">
 							<div class="header color-1">
-								<h3>Gold</h3>
+								<h3>Servicio Oportuno</h3>
 							</div>
-							<h5>liquam rhoncus, libero non congue ultri.</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum vebibendum et condimentum metusip dolore ipsumsfaucibus sed dolore.</p>
+							<h5></h5>
+							<p>Nuestra Empresa aduanera esta cimentada en una profunda conviccion de servicio, entendiendo esta como la posibilidad de lograr la excelencia en todas nuestras acciones y actividades, que nos permitan dar a nuestros clientes la tranquilidad y certeza en sus operaciones de comercio internacional.</p>
 							<div class="btns">
 								<a href="#" class="btn-default btn btn-1"><i class="fa fa-file-text-o"></i></a>
 							</div>
@@ -329,10 +215,10 @@
 					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 						<div class="box box-4">
 							<div class="header color-2">
-								<h3>Silver</h3>
+								<h3>Una Compañia Segura</h3>
 							</div>
-							<h5>liquam rhoncus, libero non congue ultri.</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum vebibendum et condimentum metusip dolore ipsumsfaucibus sed dolore.</p>
+							<h5></h5>
+							<p>Si su empresa maneja materia prima o material terminado, nuestro personal experto y calificado, distribuido en oficinas que nos dan presencia en los principales puntos aduaneros de Mexico, le proveeran de la informacion adecuada para el correcto despacho de sus mercancias.</p>
 							<div class="btns">
 								<a href="#" class="btn-default btn btn-1"><i class="fa fa-file-text-o"></i></a>
 							</div>
@@ -341,10 +227,10 @@
 					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 						<div class="box box-4">
 							<div class="header color-3">
-								<h3>Bronze</h3>
+								<h3>Soluciones de Aduana y Reexpedicion</h3>
 							</div>
-							<h5>liquam rhoncus, libero non congue ultri.</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisc elit. Proin ultricies vestibulum vebibendum et condimentum metusip dolore ipsumsfaucibus sed dolore.</p>
+							<h5></h5>
+							<p>Le ofrece mas por su dinero. Servimos como una conexion vital entre su compañia y su mercancia y fundamentalmente le damos la tranquilidad que usted espera recibir de una empresa del ramo.</p>
 							<div class="btns">
 								<a href="#" class="btn-default btn btn-1"><i class="fa fa-file-text-o"></i></a>
 							</div>
@@ -360,36 +246,57 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 					<div class="footer_info">
 						<div class="wrapper">
-							Telephone: +1 800 603 6035
-							<br> E-mail: mail@demolink.org
+						<strong>Laredo Texas</strong>
+						<br><strong>G & G Forwarding, INC</strong>
+							Telefono: + (956) 727-0069 & (956) 727-0067
+							FAX: (956) 725-9156
+							<br> E-mail: paola@comextaa.com
+							<br>Killam Industrial Park
+							<br>Laredo, TX 78045
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="footer_address">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<div class="footer_info">
 						<div class="wrapper">
-							<strong>Transalx</strong>28 Jackson Blvd Ste 1020
-							<br>Chicago, IL 60604-2340
+						<strong>Laredo Texas</strong>
+						<br><strong>Executive Express Forwarding Agency, INC</strong>
+							Telefono: + (956) 725-9159
+							FAX: (956) 725-9156
+							<br> E-mail: paola@comextaa.com
+							<br>13599 N. Lamar St
+							<br>Laredo, TX 78045
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="footer_privacy"><span class="pr_brand">Transalx </span> &copy; <span id="copyright-year"></span> |<a href="index-5.html" class="link email"> Privacy policy</a>
-						<!-- {%FOOTER_LINK} -->
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<div class="footer_info">
+						<div class="wrapper">
+						<strong>Nuevo Laredo, Tamaulipas, Mexico</strong>
+						<br><strong>Comercio Exterior de Nuevo Laredo, S.C.</strong>
+							Telefono: + (867) 715-7383
+							FAX: (867) 714-9545
+							<br> E-mail: lourdes@comextaa.com
+							<br>Baja California #2529 ALTOS 
+							<br>Nuevo Laredo, Tam. 88240 
+						</div>
 					</div>
-					<ul class="list social-list">
-						<li><a href="#"><i class="fa fa-facebook"></i></a>
-						</li>
-						<li><a href="#"><i class="fa fa-rss"></i></a>
-						</li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a>
-						</li>
-						<li><a href="#"><i class="fa fa-google-plus"></i></a>
-						</li>
-					</ul>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<div class="footer_info">
+						<div class="wrapper">
+						<strong>Manzanillo, Col</strong>
+						<br><strong>Comextaa, S.C.</strong>
+							Telefono: + (314) 334-3039 y 79
+							FAX: (867) 714-9545
+							<br> E-mail: lizbeth@comextaa.com
+							<br>Av. Elias Zamora Verduzco No. 57, Interior 101 y 102
+							<br>Manzanillo, Col. 28219
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

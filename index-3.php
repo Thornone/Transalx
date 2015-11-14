@@ -57,49 +57,32 @@
 				</div>
 			</div>
 		</div>
-		<div class="header_bootom"  id="stuck_container">
+		<div class="header_bootom" id="stuck_container">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<div class="nav_wrapper">
 							<nav class="nav navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
 								<ul class="sf-menu">
+									<li>
+										<a href="index.php">Inicio</a>
+									</li>
+									
+									<li>
+										<a href="index-2.php">Nosotros</a>
+									</li>
 									<li class="active">
-										<a href="index.php">Home</a>
-									</li>
-									<li>
-										<a href="index-1.php">about us</a>
-									</li>
-									<li>
-										<a href="index-2.php">Languages</a>
-									</li>
-									<li>
-										<a href="index-3.php">Services</a>
-										<ul>
+										<a href="index-3.php">Servicios</a>
+									<ul>
 											<li>
-												<a href="#">Dolore ipsu</a>
+												<a href="http://comextaa.com/documents/29.html">Enlaces</a>
 											</li>
-											<li>
-												<a href="#">Consecte</a>
-												<ul>
-													<li>
-														<a href="#">Dolore ipsu</a>
-													</li>
-													<li>
-														<a href="#">Consecte</a>
-													</li>
-													<li>
-														<a href="#">Elit Conseq</a>
-													</li>
-												</ul>
-											</li>
-											<li>
-												<a href="#">Elit Conseq</a>
-											</li>
-										</ul>
+									
+									</ul>
 									</li>
 									<li>
-										<a href="index-4.php">contacts</a>
+										<a href="index-4.php">Contactanos</a>
+									</li>
 									</li>
 								</ul>
 							</nav>
@@ -117,35 +100,33 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<h3 class="title title-2 indent-1">featured <br>services</h3>
+						<h3 class="title title-2 indent-1"><br>Servicios que Ofrecemos</h3>
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 								<div class="box box-5">
-									<h5>adipiscing elit Nullam feugiat lobortis odio Pell ente sque diam tortor, condimentum vel  </h5>
-									<p>Pellentesque diam tortor, condimentum vel nisl sit amet, vulputate ornare orci. Class apt ent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam tincidunt nibh ut turpis finib. Phasellus quis bibendum metus. Ut eget finibus elit. Proin luctus dignissim est, mollis semper elit. </p>
-									<p>Nulla efficitur ferm entum nunc convallis ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+									<h5>COBERTURA DE LAS ADUANAS MAS IMPORTANTES EN MEXICO CON NUESTRA OFICINA HERMANA  COMEXTAA S.C. </h5>
 								</div>
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 								<ul class="list list-3">
-									<li>Etiam cursus leo psum</li>
-									<li>Nulla facilisii primis neclaoreet</li>
-									<li>Aenean nec eros luctus </li>
-									<li>Vestibulum ante faucibus orci </li>
-									<li>Ultrices posuere itudin </li>
-									<li>Suspendisse sollic velitaugue</li>
-									<li>Ut pharetra augue nec </li>
+									<li>Tijuana, B.C.</li>
+									<li>Mexicali, B.C.</li>
+									<li>Nogales, Son. </li>
+									<li>Piedras Negras, Coah </li>
+									<li>Colombia, N.L. </li>
+									<li>Laredo, Texas</li>
+									<li>Nuevo Laredo, Tam</li>
 								</ul>
 							</div>
 							<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 								<ul class="list list-3">
-									<li>Vestibulum ante faucibus orci </li>
-									<li>Ultrices posuere itudin </li>
-									<li>Suspendisse sollic velitaugue</li>
-									<li>Ut pharetra augue nec </li>
-									<li>Nam elit agna endrerit sit amet</li>
-									<li>Tincidunt ac viverra</li>
-									<li>Donec porta diam eu massa</li>
+									<li>Matamoros, Tam </li>
+									<li>Reynosa, Tam </li>
+									<li>Altamira, Tam</li>
+									<li>Veracruz, Ver </li>
+									<li>Lazaro Cardenas, Mich</li>
+									<li>Manzanillo, Col</li>
+									<li>Monterrey, N.Leon.</li>
 								</ul>
 							</div>
 						</div>
@@ -160,81 +141,64 @@
 						<h3 class="title title-2">services overview</h3>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-						<div class="thumb-pad-5">
-							<div class="thumbnail">
-								<img src="img/page4-img1.jpg" alt="photo">
-								<div class="caption">
-									<h5>adipiscing elit Nullam feugiat lobortis </h5>
-									<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam tincidunt nibh ut turpis finibhasellus quis bibendum </p>
-									<a href="#" class="btn-default btn btn-3">read more</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-						<div class="thumb-pad-5">
-							<div class="thumbnail">
-								<img src="img/page4-img2.jpg" alt="photo">
-								<div class="caption">
-									<h5>lobortis odio ellentes que diam tortor </h5>
-									<p>Aliquam tincidunt nibh ut turpis finibhas ellus quis bibendum Ut eget finibus elit. Proin luctus dignissim est, mllis semper elit. Nulla efficitur ferm entum </p>
-									<a href="#" class="btn-default btn btn-3">read more</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-						<div class="thumb-pad-5">
-							<div class="thumbnail">
-								<img src="img/page4-img3.jpg" alt="photo">
-								<div class="caption">
-									<h5>diam tortor ondimentum vel nisl sit amet</h5>
-									<p>Nulla efficitur ferm entum nunc convallis ornare. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellu</p>
-									<a href="#" class="btn-default btn btn-3">read more</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-						<div class="thumb-pad-5">
-							<div class="thumbnail">
-								<img src="img/page4-img4.jpg" alt="photo">
-								<div class="caption">
-									<h5>Pellentesque diam tortor condimentum</h5>
-									<p>Proin luctus dignissim est, mollis semper elit. Nulla efficitur ferm entum nunc conv allis ornare. Class aptent taciti sociosqu ad litora torquent per conubia </p>
-									<a href="#" class="btn-default btn btn-3">read more</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+				<img src="img/mapa2.png" alt="photo">
 			</div>
 		</div>
 		<div class="block-9 bg-3">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-						<h3 class="title title-2">Our Service <br>Areas</h3>
+						<h3 class="title title-2">Nuestras Soluciones. <br> Areas</h3>
 						<div class="row">
 							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 								<ul class="list list-4 indent">
 									<li>
 										<span class="badge">01</span>
 										<div class="wrapper">
-									<h5>placerat ante Nunc in elit feugiat interdu</h5>
-									<p>Nunc vitae leo felis. Ut imperdiet nunc sit amet tortor. Demper ornare. Nulla felis ne que, viverra eu lectus quis</p>
+									<h5>Servicio de Agencia Aduanal Mexicana y en E.U.A.</h5>
 								</div>
 									</li>
 									<li>
 										<span class="badge">03</span>
 										<div class="wrapper">
-									<h5>Pestibulum molestieenea Hendreritivamus </h5>
-									<p>Nulla felis ne que, viverra eu lectus quis ultrices convallis dolor. Quisque blandit ac
-elit vitae varius. In euismod nisl </p>
+									<h5>Tramites de Exportaciones e Importaciones Definitivas, Temporales y Retornos.</h5>
+								</div>
+									</li>
+									
+									<li>
+										<span class="badge">05</span>
+										<div class="wrapper">
+									<h5>Cambio de Régimen Aduanero y Regularización de Mercancías.</h5>
+								</div>
+									</li>
+									<li>
+										<span class="badge">07</span>
+										<div class="wrapper">
+									<h5>Comunicación continua del estatus de su mercancía.</h5>
+								</div>
+									</li>
+									<li>
+										<span class="badge">09</span>
+										<div class="wrapper">
+									<h5>Coordinación y Supervisión de su carga en todo el proceso.</h5>
+								</div>
+									</li>
+									<li>
+										<span class="badge">11</span>
+										<div class="wrapper">
+									<h5>Todas las Operaciones se pueden Integrar en una sola factura.</h5>
+								</div>
+									</li>
+									<li>
+										<span class="badge">13</span>
+										<div class="wrapper">
+									<h5>Servicios de Logística (Terrestre y Aéreo ).</h5>
+								</div>
+									</li>
+									<li>
+										<span class="badge">15</span>
+										<div class="wrapper">
+									<h5>Productos a granel y carga sobredimensionada.</h5>
 								</div>
 									</li>
 								</ul>
@@ -244,23 +208,65 @@ elit vitae varius. In euismod nisl </p>
 									<li>
 										<span class="badge">02</span>
 										<div class="wrapper">
-									<h5>Fusce euismod consequa anteorem ipsum </h5>
-									<p>Demper ornare. Nulla felis ne que, viverra eu lectus quis, ultrices convallis dolor. Quisque blandit acelit vitae </p>
+									<h5>Programas de Importación Temporal para Exportación y Maquiladoras (IMMEX).</h5>
 								</div>
 									</li>
 									<li>
 										<span class="badge">04</span>
 										<div class="wrapper">
-									<h5>dolor sit amet consectet uer adipiscing elit</h5>
-									<p>Quisque blandit acelit vitae varius. In eui smod nisl a nulla feugiat ullamcorper sit amet at ipsum. Maecenas eros</p>
+									<h5>Asesoría Jurídica en Comercio Internacional.</h5>
+								</div>
+									</li>
+									<li>
+										<span class="badge">06</span>
+										<div class="wrapper">
+									<h5>Clasificación Arancelaria.</h5>
+								</div>
+									</li>
+									<li>
+										<span class="badge">08</span>
+										<div class="wrapper">
+									<h5>Ampliación de Tiempo en Pedimentos Temporales.</h5>
+								</div>
+									</li>
+									<li>
+										<span class="badge">10</span>
+										<div class="wrapper">
+									<h5>Servicio de Puerta a Puerta y Seguro de Mercancia.</h5>
+								</div>
+									</li>
+									<li>
+										<span class="badge">12</span>
+										<div class="wrapper">
+									<h5>Bodegas y Oficinas en USA Y México.</h5>
+								</div>
+									</li>
+									
+									<li>
+										<span class="badge">16</span>
+										<div class="wrapper">
+									<h5>Carga directa, en transbordo completa o consolidada.</h5>
+								</div>
+									</li>
+									<li>
+										<span class="badge">17</span>
+										<div class="wrapper">
+									<h5>Empacado, Documentaciòn y Distribuciòn</h5>
+								</div>
+									</li>
+									<li>
+										<span class="badge">18</span>
+										<div class="wrapper">
+									<h5>Ampliación de Tiempo en Pedimentos Temporales.</h5>
 								</div>
 									</li>
 								</ul>
+									
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-						<h3 class="title title-2">Professional Services</h3>
+						<h3 class="title title-2">Servicios Profesionales</h3>
 						<div class="thumb-pad-6">
 							<div class="thumbnail">
 								<img src="img/page4-img5.jpg" alt="photo" >
@@ -281,35 +287,57 @@ elit vitae varius. In euismod nisl </p>
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 					<div class="footer_info">
 						<div class="wrapper">
-							Telephone: +1 800 603 6035
-							<br> E-mail: mail@demolink.org
+						<strong>Laredo Texas</strong>
+						<br><strong>G & G Forwarding, INC</strong>
+							Telefono: + (956) 727-0069 & (956) 727-0067
+							FAX: (956) 725-9156
+							<br> E-mail: paola@comextaa.com
+							<br>Killam Industrial Park
+							<br>Laredo, TX 78045
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="footer_address">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<div class="footer_info">
 						<div class="wrapper">
-							<strong>Transalx</strong>28 Jackson Blvd Ste 1020
-							<br>Chicago, IL 60604-2340
+						<strong>Laredo Texas</strong>
+						<br><strong>Executive Express Forwarding Agency, INC</strong>
+							Telefono: + (956) 725-9159
+							FAX: (956) 725-9156
+							<br> E-mail: paola@comextaa.com
+							<br>13599 N. Lamar St
+							<br>Laredo, TX 78045
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="footer_privacy"><span class="pr_brand">Transalx </span> &copy; <span id="copyright-year"></span> |<a href="index-5.html" class="link email"> Privacy policy</a>
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<div class="footer_info">
+						<div class="wrapper">
+						<strong>Nuevo Laredo, Tamaulipas, Mexico</strong>
+						<br><strong>Comercio Exterior de Nuevo Laredo, S.C.</strong>
+							Telefono: + (867) 715-7383
+							FAX: (867) 714-9545
+							<br> E-mail: lourdes@comextaa.com
+							<br>Baja California #2529 ALTOS 
+							<br>Nuevo Laredo, Tam. 88240 
+						</div>
 					</div>
-					<ul class="list social-list">
-						<li><a href="#"><i class="fa fa-facebook"></i></a>
-						</li>
-						<li><a href="#"><i class="fa fa-rss"></i></a>
-						</li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a>
-						</li>
-						<li><a href="#"><i class="fa fa-google-plus"></i></a>
-						</li>
-					</ul>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<div class="footer_info">
+						<div class="wrapper">
+						<strong>Manzanillo, Col</strong>
+						<br><strong>Comextaa, S.C.</strong>
+							Telefono: + (314) 334-3039 y 79
+							FAX: (867) 714-9545
+							<br> E-mail: lizbeth@comextaa.com
+							<br>Av. Elias Zamora Verduzco No. 57, Interior 101 y 102
+							<br>Manzanillo, Col. 28219
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

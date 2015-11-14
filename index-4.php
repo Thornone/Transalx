@@ -60,49 +60,32 @@
 				</div>
 			</div>
 		</div>
-		<div class="header_bootom"  id="stuck_container">
+		<div class="header_bootom" id="stuck_container">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 						<div class="nav_wrapper">
 							<nav class="nav navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
 								<ul class="sf-menu">
+									<li>
+										<a href="index.php">Inicio</a>
+									</li>
+									
+									<li>
+										<a href="index-2.php">Nosotros</a>
+									</li>
+									<li>
+										<a href="index-3.php">Servicios</a>
+									<ul>
+											<li>
+												<a href="http://comextaa.com/documents/29.html">Enlaces</a>
+											</li>
+									
+									</ul>
+									</li>
 									<li class="active">
-										<a href="index.php">Home</a>
+										<a href="index-4.php">Contactanos</a>
 									</li>
-									<li>
-										<a href="index-1.php">about us</a>
-									</li>
-									<li>
-										<a href="index-2.php">Languages</a>
-									</li>
-									<li>
-										<a href="index-3.php">Services</a>
-										<ul>
-											<li>
-												<a href="#">Dolore ipsu</a>
-											</li>
-											<li>
-												<a href="#">Consecte</a>
-												<ul>
-													<li>
-														<a href="#">Dolore ipsu</a>
-													</li>
-													<li>
-														<a href="#">Consecte</a>
-													</li>
-													<li>
-														<a href="#">Elit Conseq</a>
-													</li>
-												</ul>
-											</li>
-											<li>
-												<a href="#">Elit Conseq</a>
-											</li>
-										</ul>
-									</li>
-									<li>
-										<a href="index-4.php">contacts</a>
 									</li>
 								</ul>
 							</nav>
@@ -131,34 +114,33 @@
 		<div class="block-2 bg-2">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-						<h3 class="title title-2">address</h3>
-						<dl class="list list-5">
-							<dt>9870 St Vincent Place, <br>Glasgow, DC 45 Fr 45.</dt>
-							<dd><span>Freephone:</span>+1 800 559 6580</dd>
-							<dd><span>Telephone:</span>+1 800 603 6035</dd>
-							<dd><span>FAX:</span>+1 800 889 9898</dd>
-							<dd>E-mail: <a href="#" class="link link-1">mail@demolink.org</a>
-							</dd>
-						</dl>
-					</div>
-					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-						<h3 class="title title-2">Contact form</h3>
+					<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+						<h3 class="title title-2">Pide tu Cotizaciòn</h3>
 						<form id="contact-form">
 							<div class="contact-form-loader"></div>
 							<fieldset>
 								<label class="name form-div-1">
-									<input type="text" name="name" placeholder="Name*:" value="" data-constraints="@Required @JustLetters" />
+									<input type="text" name="name" placeholder="Nombre:" value="" data-constraints="@Required @JustLetters" />
+									<span class="empty-message">*This field is required.</span>
+									<span class="error-message">*This is not a valid name.</span>
+								</label>
+								<label class="name form-div-1">
+									<input type="text" name="name" placeholder="Ciudad:" value="" data-constraints="@Required @JustLetters" />
+									<span class="empty-message">*This field is required.</span>
+									<span class="error-message">*This is not a valid name.</span>
+								</label>
+								<label class="name form-div-1">
+									<input type="text" name="name" placeholder="Pais:" value="" data-constraints="@Required @JustLetters" />
 									<span class="empty-message">*This field is required.</span>
 									<span class="error-message">*This is not a valid name.</span>
 								</label>
 								<label class="email form-div-2">
-									<input type="text" name="email" placeholder="Email*:" value="" data-constraints="@Required @Email" />
+									<input type="text" name="email" placeholder="Email:" value="" data-constraints="@Required @Email" />
 									<span class="empty-message">*This field is required.</span>
 									<span class="error-message">*This is not a valid email.</span>
 								</label>
 								<label class="phone form-div-3">
-									<input type="text" name="phone" placeholder="Phone*:" value="" data-constraints="@Required @JustNumbers" />
+									<input type="text" name="phone" placeholder="Telefono:" value="" data-constraints="@Required @JustNumbers" />
 									<span class="empty-message">*This field is required.</span>
 									<span class="error-message">*This is not a valid phone.</span>
 								</label>
@@ -171,7 +153,7 @@
 								</label>
 								<!-- <label class="recaptcha"><span class="empty-message">*This field is required.</span></label> -->
 								<div class="btns">
-									<a href="#" data-type="submit" class="btn-default btn btn-3">Submit</a>
+									<a href="#" data-type="submit" class="btn-default btn btn-3">Enviar</a>
 									<p>* required fields</p>
 								</div>
 							</fieldset>
@@ -202,35 +184,57 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 					<div class="footer_info">
 						<div class="wrapper">
-							Telephone: +1 800 603 6035
-							<br> E-mail: mail@demolink.org
+						<strong>Laredo Texas</strong>
+						<br><strong>G & G Forwarding, INC</strong>
+							Telefono: + (956) 727-0069 & (956) 727-0067
+							FAX: (956) 725-9156
+							<br> E-mail: paola@comextaa.com
+							<br>Killam Industrial Park
+							<br>Laredo, TX 78045
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="footer_address">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<div class="footer_info">
 						<div class="wrapper">
-							<strong>Transalx</strong>28 Jackson Blvd Ste 1020
-							<br>Chicago, IL 60604-2340
+						<strong>Laredo Texas</strong>
+						<br><strong>Executive Express Forwarding Agency, INC</strong>
+							Telefono: + (956) 725-9159
+							FAX: (956) 725-9156
+							<br> E-mail: paola@comextaa.com
+							<br>13599 N. Lamar St
+							<br>Laredo, TX 78045
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="footer_privacy"><span class="pr_brand">Transalx </span> &copy; <span id="copyright-year"></span> |<a href="index-5.html" class="link email"> Privacy policy</a>
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<div class="footer_info">
+						<div class="wrapper">
+						<strong>Nuevo Laredo, Tamaulipas, Mexico</strong>
+						<br><strong>Comercio Exterior de Nuevo Laredo, S.C.</strong>
+							Telefono: + (867) 715-7383
+							FAX: (867) 714-9545
+							<br> E-mail: lourdes@comextaa.com
+							<br>Baja California #2529 ALTOS 
+							<br>Nuevo Laredo, Tam. 88240 
+						</div>
 					</div>
-					<ul class="list social-list">
-						<li><a href="#"><i class="fa fa-facebook"></i></a>
-						</li>
-						<li><a href="#"><i class="fa fa-rss"></i></a>
-						</li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a>
-						</li>
-						<li><a href="#"><i class="fa fa-google-plus"></i></a>
-						</li>
-					</ul>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<div class="footer_info">
+						<div class="wrapper">
+						<strong>Manzanillo, Col</strong>
+						<br><strong>Comextaa, S.C.</strong>
+							Telefono: + (314) 334-3039 y 79
+							FAX: (867) 714-9545
+							<br> E-mail: lizbeth@comextaa.com
+							<br>Av. Elias Zamora Verduzco No. 57, Interior 101 y 102
+							<br>Manzanillo, Col. 28219
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

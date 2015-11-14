@@ -64,42 +64,24 @@
 						<div class="nav_wrapper">
 							<nav class="nav navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
 								<ul class="sf-menu">
+									<li>
+										<a href="index.php">Inicio</a>
+									</li>
+									
 									<li class="active">
-										<a href="index.php">Home</a>
+										<a href="index-2.php">Nosotros</a>
 									</li>
 									<li>
-										<a href="index-1.php">about us</a>
-									</li>
-									<li>
-										<a href="index-2.php">Languages</a>
-									</li>
-									<li>
-										<a href="index-3.php">Services</a>
-										<ul>
+										<a href="index-3.php">Servicios</a>
+									<ul>
 											<li>
-												<a href="#">Dolore ipsu</a>
+												<a href="http://comextaa.com/documents/29.html">Enlaces</a>
 											</li>
-											<li>
-												<a href="#">Consecte</a>
-												<ul>
-													<li>
-														<a href="#">Dolore ipsu</a>
-													</li>
-													<li>
-														<a href="#">Consecte</a>
-													</li>
-													<li>
-														<a href="#">Elit Conseq</a>
-													</li>
-												</ul>
-											</li>
-											<li>
-												<a href="#">Elit Conseq</a>
-											</li>
-										</ul>
+									
+									</ul>
 									</li>
 									<li>
-										<a href="index-4.php">contacts</a>
+										<a href="index-4.php">Contactanos</a>
 									</li>
 								</ul>
 							</nav>
@@ -117,142 +99,56 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<h3 class="title title-2">Languages</h3>
+						<h3 class="title title-2">Quienes Somos?</h3>
 						<div class="box box-6">
-							<h5>Duis turpis sem, malesuada condimentum eleifend et, aliquet vitae neque Ut nec tristique nulla. Morbi vel este maximus, efficitur dolor vel, sodales sapien.placerat ante Nunc in</h5>
-							<p>Demper ornare. Nulla felis neque, viverra eu lectus quis, ultrices convallis dolor. Quisque blandit ac elit vitae varius. In euismod nisl a nulla feugiat ullamcorper sit amet at ipsum. Ma ecenas eros lorem, semper a odio et, dapibus porttitor lectus. Suspendisse potenti. Curabitur vulputate, tellus ac aliquam viverra, leo mi mollis neque, nec laore turpis sem, malesuada condimentum eleifend et, aliquet vitae neque. Ut nec tristique nulla. Morbi vel est maximus, efficitur dolor vel, sodales sapien.</p>
-							<p>Praesent eu placerat ante. Nunc in sem sed elit feugiat interdum ac consequat mauris. Integer eget dolor elit. Praesent commodo euismod est vel suscipit. Maecenas a nisi ipsum. Nam fringilla hendrerit arcu at consectetur. Praesent tincidunt tellus ut metus congue ultricies. Curabitur velit est, aliquam eu velit quis, suscipit fe</p>
+							<h5>G & G Forwarding Inc., nace  con el propósito firme de contribuir con los Importadores y Exportadores en cubrir sus requerimientos de tramitación y manejo aduanal, a través de procesos eficaces y seguros.</h5>
+							<p>Con mas de 10 años de experiencia, de la mano de nuestro socio y Agente Aduanal Carlos Cantú Santos, con nuestra empresa hermana COMEXTAA, C.S., nos especializamos en el diseño de soluciones aduaneras y de almacenamiento que demandan un alto grado de calidad en servicio utilizando como herramienta principal, la atención personalizada de nuestro personal calificado y constantemente capacitado, así como de nuestros diversos servicios.</p>
+							<p>¡Permítanos mostrarle que somos su única alternativa para el desarrollo y crecimiento de su Empresa en materia aduanera y de logística!</p>
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-								<ul class="list list-3 indent">
-									<li>Danish</li>
-									<li>Dutch</li>
-									<li>Finnish</li>
-									<li>French</li>
-									<li>German</li>
-								</ul>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-								<ul class="list list-3 indent">
-									<li>Greek</li>
-									<li>Icelandic</li>
-									<li>Italian</li>
-									<li>Norwegian</li>
-									<li>Portuguese</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-								<ul class="list list-3 indent">
-									<li>Spanish</li>
-									<li>Swedish</li>
-									<li>Czech</li>
-									<li>Estonian</li>
-									<li>Hungarian</li>
-								</ul>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-								<ul class="list list-3 indent">
-									<li>Latvian</li>
-									<li>Lithuanian</li>
-									<li>Polish</li>
-									<li>Romanian</li>
-									<li>Slovakian</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-								<ul class="list list-3 indent">
-									<li>Slovenian</li>
-									<li>Ukrainian</li>
-									<li>Greek</li>
-									<li>Icelandic</li>
-									<li>Italian</li>
-								</ul>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-								<ul class="list list-3 indent">
-									<li>Arabic</li>
-									<li>Hebrew</li>
-									<li>Indonesian</li>
-									<li>Japanese</li>
-									<li>Korean</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bg-3">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<div class="block-7 parallax parallax-bg-1">
-							<div class="box box-8">
-								<div class="left_side">
-									<h2>Offering the leading <br>professional <br>translation services</h2>
-								</div>
-								<div class="right_side">
-									<a href="#" class="btn-default btn btn-2"><i class="fa fa-arrow-right"></i></a>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<h3 class="title title-2">Mision</h3>
+						<div class="thumb-pad-4">
+							<div class="thumbnail">
+								<div class="caption">
+								<p>Proveer servicios integrales en materia aduanera y de logística, conjuntando la responsabilidad, transparencia y profesionalismo como valores principales, garantizando una atención personalizada y un servicio justo a tiempo.</p>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<h3 class="title title-2">Vision</h3>
+						<div class="box box-6">
+							<p>Ser una empresa líder a nivel Internacional en Servicios Aduanales y de logística, buscando siempre satisfacer  los requerimientos de nuestros clientes a través de la vanguardia y excelencia en nuestro servicio.</p>
+						</div>
+					</div>
 			</div>
 		</div>
+		
 		<div class="block-8 bg-3">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-						<h3 class="title title-2">special offer</h3>
+						<h3 class="title title-2">Politica de Calidad</h3>
 						<div class="thumb-pad-4">
 							<div class="thumbnail">
-								<img src="img/page3-img1.jpg" alt="photo" >
 								<div class="caption">
-									<h5>Mes cuml diased dolore <br>commet ipsuco.</h5>
-									<h5>Fusce euismodt</h5>
-									<p>Dolor nunc vule putateulr ips dol consete. Donec sem ertet laciniate ultricie upie. disse comete dolo lectus. fgilla itollicil tua ludin dolor nec met quam accumsan. </p>
-									<p>Dolor nunc vule putateulr ips dol consec.Donec sem ertet laciniate ultricie upie disse utes comete dolo lectus. fgilla itollicil tua ludin dolor nec met quam accumsan. Dolore condime netus lullam utlacus adipiscing ipsum molestie euismod lore estibulum vel libero ipsum sit amet sollicitudin ante. Aenean imperdiet aliquet hendreritunc interdum ullamcorper lec tuset pellentesqu enim interdum atuspendisse malesuada dignissim.</p>
+									
+									<h5>En G & G Forwarding Inc. </h5>
+									<p>Estamos comprometidos con la excelencia. Por esta razón nuestro equipo orienta sus esfuerzos en ofrecer servicios seguros, confiables y eficaces, de Importación y Exportación, Customs, Forwarder, Warehousing y de Logística, con un único objetivo en mente: </p>
+									<p>Satisfacer los requerimientos y superar las expectativas de nuestros Clientes y Proveedores mediante la implementación de estándares operativos de calidad que contribuyan al mejoramiento continuo de la Empresa.</p>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-						<h3 class="title title-2">What we do?</h3>
+						<h3 class="title title-2">Politicas de Seguridad</h3>
 						<div class="box box-6">
-							<h5>Fusce euismod consequat ante. Lorem ipsum dolor sit Aliquam congue fermentum nisl Mauris </h5>
-							<p>Dolor nunc vule putateulr ips dol consec.Donec semp ertet laciniate ultricie upien disse comete dolo lectus fgilla itollicil tua ludin dolor nec met quam accumsan dolore. Condime netus lullam utlacus adipiscing ipsum molestie euismod estibulum vel libero ipsum sit amet sollicitudin ante. Aenean imperdiet aliquet hendrerit. </p>
-							<div class="row">
-								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-									<ul class="list list-3">
-										<li>Suspendisse sollic velitaugue</li>
-										<li>Ut pharetra augue nec </li>
-										<li>Nam elit agna endrerit sit amet</li>
-										<li>Tincidunt ac viverra</li>
-									</ul>
-								</div>
-								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-									<ul class="list list-3">
-										<li>Nam elit agna endrerit sit amet</li>
-										<li>Tincidunt ac viverra</li>
-										<li>Donec porta diam eu massa</li>
-										<li>Quisque diam lorem</li>
-									</ul>
-								</div>
-							</div>
+							<h5>Es objetivo primordial de G & G Forwarding Inc.</h5>
+							<p>Preservar la seguridad e Integridad de embarques y mercancías del cliente, a fin de evitar daños o fiscalizaciones, así como la prevención de la alteración de documentos o de cualquier otra actividad que ponga en riesgo los activos del cliente. </p>
+							<p>Nuestra política de seguridad se basa en el control de nuestros procesos internos, tanto como aquellos que conlleven interacción con socios externos facilitadores en Tramitación Aduanal, llevando a cabo un método de comunicación efectiva buscando siempre resguardar la mercancía de nuestros usuarios.</p>
+							
 						</div>
 					</div>
 				</div>
@@ -265,35 +161,57 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
 					<div class="footer_info">
 						<div class="wrapper">
-							Telephone: +1 800 603 6035
-							<br> E-mail: mail@demolink.org
+						<strong>Laredo Texas</strong>
+						<br><strong>G & G Forwarding, INC</strong>
+							Telefono: + (956) 727-0069 & (956) 727-0067
+							FAX: (956) 725-9156
+							<br> E-mail: paola@comextaa.com
+							<br>Killam Industrial Park
+							<br>Laredo, TX 78045
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="footer_address">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<div class="footer_info">
 						<div class="wrapper">
-							<strong>Transalx</strong>28 Jackson Blvd Ste 1020
-							<br>Chicago, IL 60604-2340
+						<strong>Laredo Texas</strong>
+						<br><strong>Executive Express Forwarding Agency, INC</strong>
+							Telefono: + (956) 725-9159
+							FAX: (956) 725-9156
+							<br> E-mail: paola@comextaa.com
+							<br>13599 N. Lamar St
+							<br>Laredo, TX 78045
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-					<div class="footer_privacy"><span class="pr_brand">Transalx </span> &copy; <span id="copyright-year"></span> |<a href="index-5.html" class="link email"> Privacy policy</a>
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<div class="footer_info">
+						<div class="wrapper">
+						<strong>Nuevo Laredo, Tamaulipas, Mexico</strong>
+						<br><strong>Comercio Exterior de Nuevo Laredo, S.C.</strong>
+							Telefono: + (867) 715-7383
+							FAX: (867) 714-9545
+							<br> E-mail: lourdes@comextaa.com
+							<br>Baja California #2529 ALTOS 
+							<br>Nuevo Laredo, Tam. 88240 
+						</div>
 					</div>
-					<ul class="list social-list">
-						<li><a href="#"><i class="fa fa-facebook"></i></a>
-						</li>
-						<li><a href="#"><i class="fa fa-rss"></i></a>
-						</li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a>
-						</li>
-						<li><a href="#"><i class="fa fa-google-plus"></i></a>
-						</li>
-					</ul>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<div class="footer_info">
+						<div class="wrapper">
+						<strong>Manzanillo, Col</strong>
+						<br><strong>Comextaa, S.C.</strong>
+							Telefono: + (314) 334-3039 y 79
+							FAX: (867) 714-9545
+							<br> E-mail: lizbeth@comextaa.com
+							<br>Av. Elias Zamora Verduzco No. 57, Interior 101 y 102
+							<br>Manzanillo, Col. 28219
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
