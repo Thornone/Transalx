@@ -1,331 +1,437 @@
-﻿<!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-	<title>Home</title>
-	<!--FAVICON-->
-	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-	<!--META-->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="format-detection" content="telephone=no">
-	<meta name="description" content="Your description">
-	<meta name="keywords" content="Your keywords">
-	<meta name="author" content="Your name">
-	<!--CSS-->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/camera.css">
-	<!--JS-->
-	
-	<script src="js/camera.min.js"></script>
-	<script src="js/jquery.equalheights.min.js"></script>
-	<script src="js/jquery-1.11.3.min.js"></script>
-	<script src="js/jquery-migrate-1.2.1.min.js"></script>
-	<script>
-		jQuery(document).ready(function () {
-			jQuery('.camera_wrap').camera({
-				pagination: true,
-				navigation: false,
-				navigationHover: false,
-				loaderOpacity: '0',
-				fx: 'simpleFade',
-				height: '53.9%',
-				minHeight: '800px'
-			});
-			jQuery(".caption_bg").height(jQuery(".camera_caption").outerHeight).appendTo(".camera_overlayer");
-		});
-	</script>
-	<!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IMEXSOL | Imports Exports Software Solutions</title>
+  <link rel="icon" href="img/favicon.ico">
+  <script src="js/carousel-preload.js"></script>
 
-    <div id="ie6-alert" style="width: 100%; text-align:center;">
-    <img src="http://beatie6.frontcube.com/images/ie6.jpg" alt="Upgrade IE 6" width="640" height="344" border="0" usemap="#Map" longdesc="http://die6.frontcube.com" />
-      <map name="Map" id="Map"><area shape="rect" coords="496,201,604,329" href="http://www.microsoft.com/windows/internet-explorer/default.aspx" target="_blank" alt="Download Interent Explorer" /><area shape="rect" coords="380,201,488,329" href="http://www.apple.com/safari/download/" target="_blank" alt="Download Apple Safari" /><area shape="rect" coords="268,202,376,330" href="http://www.opera.com/download/" target="_blank" alt="Download Opera" /><area shape="rect" coords="155,202,263,330" href="http://www.mozilla.com/" target="_blank" alt="Download Firefox" />
-        <area shape="rect" coords="35,201,143,329" href="http://www.google.com/chrome" target="_blank" alt="Download Google Chrome" />
-      </map>
-  </div>
+  <!--[if IE 8]><html class="ie8"><![endif]-->
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Plugins -->
+  <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+  <!-- Theme -->
+  <link rel="stylesheet" type="text/css" href="css/carousel-animate.css">
+  <link rel="stylesheet" type="text/css" href="css/theme.css" id="color-style">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
-
 </head>
 
-<body>
-	<!--========================================================
-                         	HEADER
-	=========================================================-->
-	<header id="header">
-		<div class="header_top">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<a href="./" class="brand">
-							<div class="brand_logo"><i class="fa fa-flag-o"></i>
-							</div>
-							<div class="wrapper">
-								<h1 class="brand_name">Transalx</h1>
-								<span class="brand_slogan">Translation Agency</span>
-							</div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="header_bootom" id="stuck_container">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-						<div class="nav_wrapper">
-							<nav class="nav navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
-								<ul class="sf-menu">
-									<li class="active">
-										<a href="index.php">Inicio</a>
-									</li>
-									
-									<li>
-										<a href="index-2.php">Nosotros</a>
-									</li>
-									<li>
-										<a href="index-3.php">Servicios</a>
-									<ul>
-											<li>
-												<a href="http://comextaa.com/documents/29.html">Enlaces</a>
-											</li>
-									
-									</ul>
-									</li>
-									<li>
-										<a href="index-4.php">Contactanos</a>
-									</li>
-									</li>
-								</ul>
-							</nav>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-	<!--========================================================
-                        		SLIDER
-	=========================================================-->
-	<div class="camera_block">
-		<div class="caption_bg"></div>
-		<div class="camera_wrap">
-			<div data-src="img/page1-slide1.jpg">
-				<div class="camera_caption">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-								<h2>Website translation <br>AND LOCALIZATION SERVICES</h2>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div data-src="img/page1-slide2.jpg">
-				<div class="camera_caption">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-								<h2>Proofreading, Transcription <br>AND VOICEOVER SERVICES</h2>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div data-src="img/page1-slide3.jpg">
-				<div class="camera_caption">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-								<h2>Interpreting & Document <br>TRANSLATION SERVICES</h2>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--========================================================
-                        	CONTENT
-	=========================================================-->
-	
-		<div class="block-2 bg-2">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
-						<h3 class="title title-1">Porque seriamos<br>su Elección?</h3>
-						<div class="box box-2">
-							<h5>20 Años de Experiencia y 11 Oficinas para Servirle</h5>
-							<p>Con Nuestra presencia a lo largo de la  frontera, COMERCIO EXTERIOR puede ser su puente entre EE, UU El resto del Mundo y Mexico. Tenemos la experiencia de mas de 29 Años y la solvencia para resolver cualquier tipo de incidencia que pudieran interferir con sus embarques, asegurandoasi operaciones sin problemas.</p>
-							
-						</div>
-					</div>
-					<div class="col-lg-8 col-md-8 col-sm-6 col-xs-6">
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-								<h3 class="title title-2">Que <br>Ofrecemos?</h3>
-								<div class="thumb-pad-1">
-									<div class="thumbnail">
-										<img src="img/page1-img1.jpg" alt="photo">
-										<div class="caption">
-											<h5>Comunicacion Permanente</h5>
-											<h5>con el Cliente</h5>
-											<p>Sin embargo, consideramos que nuestra mayor y mejor herramienta consiste en una permanente comunicacion con nuestros clientes.</p>
-											<p>Lo que nos permite en todo momento conocer de primera mano sus circunstancias especificas y sus necesidades, por lo que creemos que apartir de una entrevista coordial y amistosa, identificaremos mas precisamente los objetivos especificos y la mejor formula para su atención.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-								<ul class="list list-1 indent">
-									<li><a href="">Servicios Aduanales.</a>
-									</li>
-									<li><a href="">Servicios de Transportaciòn Mundial. </a>
-									</li>
-									<li><a href="">Servicios de Logística.</a>
-									</li>
-									<li><a href="">Servicios de Almacenes.</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="block-1 bg-2">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<div class="box box-4">
-							<div class="header color-1">
-								<h3>Servicio Oportuno</h3>
-							</div>
-							<h5></h5>
-							<p>Nuestra Empresa aduanera esta cimentada en una profunda conviccion de servicio, entendiendo esta como la posibilidad de lograr la excelencia en todas nuestras acciones y actividades, que nos permitan dar a nuestros clientes la tranquilidad y certeza en sus operaciones de comercio internacional.</p>
-							<div class="btns">
-								<a href="#" class="btn-default btn btn-1"><i class="fa fa-file-text-o"></i></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<div class="box box-4">
-							<div class="header color-2">
-								<h3>Una Compañia Segura</h3>
-							</div>
-							<h5></h5>
-							<p>Si su empresa maneja materia prima o material terminado, nuestro personal experto y calificado, distribuido en oficinas que nos dan presencia en los principales puntos aduaneros de Mexico, le proveeran de la informacion adecuada para el correcto despacho de sus mercancias.</p>
-							<div class="btns">
-								<a href="#" class="btn-default btn btn-1"><i class="fa fa-file-text-o"></i></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-						<div class="box box-4">
-							<div class="header color-3">
-								<h3>Soluciones de Aduana y Reexpedicion</h3>
-							</div>
-							<h5></h5>
-							<p>Le ofrece mas por su dinero. Servimos como una conexion vital entre su compañia y su mercancia y fundamentalmente le damos la tranquilidad que usted espera recibir de una empresa del ramo.</p>
-							<div class="btns">
-								<a href="#" class="btn-default btn btn-1"><i class="fa fa-file-text-o"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--========================================================
-                        	FOOTER
-	=========================================================-->
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-					<div class="footer_info">
-						<div class="wrapper">
-						<strong>Laredo Texas</strong>
-						<br><strong>G & G Forwarding, INC</strong>
-							Telefono: + (956) 727-0069 & (956) 727-0067
-							FAX: (956) 725-9156
-							<br> E-mail: paola@comextaa.com
-							<br>Killam Industrial Park
-							<br>Laredo, TX 78045
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-					<div class="footer_info">
-						<div class="wrapper">
-						<strong>Laredo Texas</strong>
-						<br><strong>Executive Express Forwarding Agency, INC</strong>
-							Telefono: + (956) 725-9159
-							FAX: (956) 725-9156
-							<br> E-mail: paola@comextaa.com
-							<br>13599 N. Lamar St
-							<br>Laredo, TX 78045
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-					<div class="footer_info">
-						<div class="wrapper">
-						<strong>Nuevo Laredo, Tamaulipas, Mexico</strong>
-						<br><strong>Comercio Exterior de Nuevo Laredo, S.C.</strong>
-							Telefono: + (867) 715-7383
-							FAX: (867) 714-9545
-							<br> E-mail: lourdes@comextaa.com
-							<br>Baja California #2529 ALTOS 
-							<br>Nuevo Laredo, Tam. 88240 
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-					<div class="footer_info">
-						<div class="wrapper">
-						<strong>Manzanillo, Col</strong>
-						<br><strong>Comextaa, S.C.</strong>
-							Telefono: + (314) 334-3039 y 79
-							FAX: (867) 714-9545
-							<br> E-mail: lizbeth@comextaa.com
-							<br>Av. Elias Zamora Verduzco No. 57, Interior 101 y 102
-							<br>Manzanillo, Col. 28219
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!--JS-->
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/tm-scripts.js"></script>
+<body class="body-nav-fixed-menu-top">
+  <div class="wrapper-body">
+
+    <!-- NAVBAR -->
+    <!--===============================================================-->
+    <div id="header">
+      <nav id="nav" class="navbar navbar-default navbar-fixed-top">
+        <div class="menu-top menu-top-inverse">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-5 hidden-xs">
+                <a class="title-menu-top display-inline-block" href="/cdn-cgi/l/email-protection#fc8f898c8c938e88bc99849d918c9099d29f9391"><span class="__cf_email__" data-cfemail="31424441415e4345715449505c415d541f525e5c">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></a>
+              </div>
+              <div class="col-sm-7 col-xs-12">
+                <div class="pull-right">
+                  <div class="dropdown dropdown-login pull-left">
+                    <button class="btn-menu-top" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> Log in</button>
+                    <div class="dropdown-menu dropdown-menu-right stop-prop" role="menu" aria-labelledby="dLabel">
+                      <div class="wrapper-form-box">
+                        <h3>Log In</h3>
+                        <form>
+                          <div class="form-group">
+                            <div class="input-group">
+                              <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                              <input type="text" class="form-control" placeholder="Username">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="input-group">
+                              <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                              <input type="password" class="form-control" placeholder="Password">
+                            </div>
+                          </div>
+                          <button type="submit" class="btn btn-primary text-theme-xs mr-8">Login</button>
+                          <a href="#" class="text-theme-xs pull-right a-black">Forgot your password ?</a>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="list-inline social-icons-menu-top pull-right">
+                  <a href="https://www.facebook.com/IMEXSOL/?fref=photo" class="social-hover-v1 a-facebook"></a>
+                  <a href="https://twitter.com/MyIMEXNet" class="social-hover-v1 a-twitter"></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.php"><img class="img-responsive" src="img/imexlogo.png" alt="theme-img"></a>
+          </div>
+
+          <div id="navbar" class="navbar-collapse collapse">
+
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Home</a>
+                <ul class="dropdown-menu dropdown-menu-left" role="menu">
+                  <li><a href="index.php">Index</a></li>
+                  
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Solutions</a>
+                <ul class="dropdown-menu dropdown-menu-left" role="menu">
+
+                  <li class="dropdown-submenu">
+                    <a href="#">Services</a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="manifest.php">Manifest</a></li>
+                      <li><a href="USExports.php">US Exports</a></li>
+                      <li><a href="USImports.php">US Imports</a></li>
+                      <li><a href="WMLogistics.php">WMLogistics</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="li-mega-menu dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">News</a>
+                
+              </li>
+
+              <li class="dropdown">
+                <a href="About.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About Us</a>
+                <ul class="dropdown-menu dropdown-menu-left" role="menu">
+                 <li><a href="About.php">About Us</a></li>
+                </ul>
+              </li>
+
+              <li class="li-mega-menu dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Downloads</a>
+                
+              </li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Support</a>
+                <ul class="dropdown-menu dropdown-menu-left" role="menu">
+
+                </ul>
+              </li>
+
+              <li class="li-search">
+                <form class="nav-search">
+                  <label for="focus-input"><i class="fa fa-search"></i></label>
+                  <input id="focus-input" class="container" type="search" name="s" placeholder="To Search, Type and Hit Enter">
+                </form>
+              </li>
+
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+    </div>
+    <!-- NAVBAR END -->
+
+    <!-- SECTION INTRO SLIDER -->
+    <!--===============================================================-->
+    <div class="section-intro-index section-slider">
+      <div class="layer-intro layer-intro-index">
+        <!-- SLIDER -->
+        <div class="wrapper-slider" id="intro-slider-wrapper">
+          <div class="carousel slide carousel-intro" id="carousel-intro" data-ride="carousel" data-interval="7500">
+            <div class="wrapper-preloader">
+              <div id="preloader"></div>
+            </div>
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-intro" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-intro" data-slide-to="1"></li>
+              <li data-target="#carousel-intro" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <!-- first slide -->
+              <div class="item item-theme-first active">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-7">
+                      <h1 class="text-theme title-xl mt-40 animation an-delay-05 an-duration-04 fadeInLeftSlider">Multipurpose, Unlimited Options In Our Systems</h1>
+                      <p class="text-theme lead animation an-delay-09 an-duration-04 fadeInUpSlider">Hire our Systems with Adapted & Unlimited Possibilities.</p>
+                      <a class="text-theme btn btn-primary btn-lg animation an-delay-13 an-duration-04 fadeInRightSlider">Get Started</a>
+                    </div>
+                    <div class="col-sm-5 hidden-xs">
+                      <img class="pull-right animation an-delay-19 an-duration-04 fadeInUpSlider" src="img/12.png" alt="theme-img">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- second slide -->
+              <div class="item item-theme">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <h1 class="text-theme title-xl mt-40 animation an-delay-05 an-duration-04 fadeInUpSlider">Alliance</h1>
+                      <p class="text-theme lead animation an-delay-07 an-duration-04 fadeInRightSlider">Aduasis Integration from SIS Logistica.</p>
+                      <ul class="list-unstyled list-md text-theme">
+                        <li class="animation an-delay-09 an-duration-04 fadeInLeftSlider"><i class="fa fa-check fa-round"></i>Production Planning</li>
+                        <li class="animation an-delay-11 an-duration-04 fadeInLeftSlider"><i class="fa fa-code fa-round"></i>Import/Export Systems</li>
+                        <li class="animation an-delay-13 an-duration-04 fadeInLeftSlider"><i class="fa fa-cloud-download fa-round"></i>Business Solutions</li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-5 col-sm-offset-1 hidden-xs">
+                      <img class="img-responsive img-slide-2 pull-right mt-20 animation an-delay-18 an-duration-04 fadeInUpSlider" src="img/imacs.png" alt="theme-img">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- third slide -->
+              <div class="item item-theme">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-5 hidden-xs">
+                      <img class="img-responsive img-slide-3 pull-right mt-30 animation an-delay-05 an-duration-04 fadeInLeftSlider" src="img/macbook-mockup.png" alt="theme-img">
+                    </div>
+                    <div class="col-sm-6 col-sm-offset-1">
+                      <h1 class="text-theme title-xl mt-40 animation an-delay-08 an-duration-04 fadeInRightSlider">Everything you need in one System</h1>
+                      <p class="text-theme lead animation an-delay-11 an-duration-04 fadeInUpSlider"></p>
+                      <ul class="list-unstyled list-md text-theme">
+                        <li class="animation an-delay-14 an-duration-04 fadeInRightSlider"><i class="fa fa-check fa-round"></i>Responsive</li>
+                        <li class="animation an-delay-16 an-duration-04 fadeInRightSlider"><i class="fa fa-code fa-round"></i>Ui Elements</li>
+                        <li class="animation an-delay-18 an-duration-04 fadeInRightSlider"><i class="fa fa-cloud-download fa-round"></i>Fast</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- SLIDER END-->
+      </div>
+      <!-- Controls -->
+      <a href="#carousel-intro" role="button" data-slide="prev">
+        <i class="fa fa-angle-left fa-2x btn-prev-intro"></i>
+      </a>
+      <a href="#carousel-intro" role="button" data-slide="next">
+        <i class="fa fa-angle-right fa-2x btn-next-intro"></i>
+      </a>
+    </div>
+
+    <!-- SECTION CALL-TO -->
+    <!--===============================================================-->
+    <div class="section section-xs section-both section-primary section-call-to">
+      <div class="container">
+        <div class="row text-center-xs">
+          <div class="col-sm-9">
+            <h3 class="title-md">IMEXSOL - Is your best way on Import/Export Software Solutions</h3>
+          </div>
+          <div class="col-sm-3 text-right text-center-xs">
+            <a class="btn btn-ghost-white btn-lg"><i class="fa fa-cloud-download"></i>Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SEECTION FEATURES -->
+    <!--===============================================================-->
+    <div class="section section-sm section-both">
+      <div class="container">
+        <div class="row">
+          <!-- FEATURES -->
+          <div class="col-sm-3">
+            <div class="icon-box">
+              <i class="fa fa-bar-chart-o fa-round fa-4x text-theme"></i>
+              <h3 class="title-sm text-theme-sm text-theme">BLAZING FAST</h3>
+              <p class="text-theme-sm"> Our Systems Time Answer Responds
+                <br>to a Blink of an Eye.</p>
+            </div>
+          </div>
+          <!-- FEATURES -->
+          <div class="col-sm-3">
+            <div class="icon-box">
+              <i class="fa fa-cogs fa-round fa-4x text-theme"></i>
+              <h3 class="title-sm text-theme-sm text-theme">WEB CUSTOMIZATION</h3>
+              <p class="text-theme-sm">Our systems are based on Web code
+                <br>to get a new view and communication through it</p>
+            </div>
+          </div>
+          <!-- FEATURES -->
+          <div class="col-sm-3">
+            <div class="icon-box">
+              <i class="fa fa-paper-plane fa-round fa-4x text-theme"></i>
+              <h3 class="title-sm text-theme-sm text-theme">GREAT FEATURES</h3>
+              <p class="text-theme-sm">Responsive code managed on our systems 
+                <br>to adapt our softwares to any Cellphone or Gadget.</p>
+            </div>
+          </div>
+          <!-- FEATURES -->
+          <div class="col-sm-3">
+            <div class="icon-box">
+              <i class="fa fa-code fa-round fa-4x text-theme"></i>
+              <h3 class="title-sm text-theme-sm text-theme">USER FRIENDLY</h3>
+              <p class="text-theme-sm">Friendly Interfaces to get the
+                <br>user into it, and work safely.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- SECTION -->
+    <!--===============================================================-->
+    <div class="section section-sm section-both">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-7">
+            <h3 class="text-theme title-lg">Great Tools to Start With</h3>
+            <p class="text-theme">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur auctor. Aliquam nec ultricies dolor. Aliquam ornare posuere purus, sed gravida magna venenatis eu.</p>
+            <ul class="text-theme list-unstyled list-xl">
+              <li><i class="fa fa-cogs fa-2x fa-round bg"></i><span>Easily customizable, made for developers</span></li>
+              <li><i class="fa fa-code fa-2x fa-round bg"></i><span>7/24 Customer Support</span></li>
+              <li><i class="fa fa-cloud-download fa-2x fa-round bg"></i><span>Experienced Team</span></li>
+              <li><i class="fa fa-bolt fa-2x fa-round bg"></i><span>Joyful Experience</span></li>
+              <li><i class="fa fa-rocket fa-2x fa-round bg"></i><span>Rocket Fast</span></li>
+              <li><i class="fa fa-paypal fa-2x fa-round bg"></i><span>Rocket Fast</span></li>
+            </ul>
+          </div>
+          <div class="col-sm-5">
+            <img class="img-responsive pull-right" src="img/imac.png" alt="theme-img">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION COUNT -->
+    <!--===============================================================-->
+    <div class="section-polygonal-black section-arrow-bottom">
+      <div class="opacity-layer section section-both section-lg">
+        <div class="container">
+          <div id="count-wrapper" class="row">
+            <div class="col-sm-3">
+              <div class="icon-box">
+                <i class="fa fa-coffee fa-4x text-theme-sm"></i>
+                <h3 class="title-count title-lg text-theme-sm hr" data-from="25" data-speed="1400" data-refresh-interval="50" data-to="75">0</h3>
+                <h3 class="title-md text-theme-sm">COFFEES</h3>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="icon-box">
+                <i class="fa fa-code fa-4x text-theme-sm"></i>
+                <h3 class="title-count title-lg text-theme-sm hr" data-from="25" data-speed="1400" data-refresh-interval="50" data-to="4228">0</h3>
+                <h3 class="title-md text-theme-sm">LINES OF CODE</h3>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="icon-box">
+                <i class="fa fa-cloud-download fa-4x text-theme-sm"></i>
+                <h3 class="title-count title-lg text-theme-sm hr" data-from="25" data-speed="1400" data-refresh-interval="50" data-to="110">0</h3>
+                <h3 class="title-md text-theme-sm">DOWNLOADED</h3>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="icon-box">
+                <i class="fa fa-rocket fa-4x text-theme-sm"></i>
+                <h3 class="title-count title-lg text-theme-sm hr" data-from="25" data-speed="1400" data-refresh-interval="50" data-to="201">0</h3>
+                <h3 class="title-md text-theme-sm">TIMES</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION WORK AND CLIENTS -->
+    <!--===============================================================-->
+   
+    <!-- SECTION CEO -->
+    <!--===============================================================-->
+    <div class="section-ceo section section-sm section-top ">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-sm-push-6">
+            <h3 class="text-theme title-lg">Our Ceo Says "This is the Best System In The World"</h3>
+            <p class="text-theme lead">Save time & money with our web portal and premium support.</p>
+            <a class="text-theme btn btn-primary btn-lg"><i class="fa fa-shopping-cart"></i>Buy Now</a>
+          </div>
+          <div class="col-sm-6 col-sm-pull-6">
+            <div class="row">
+              <div class="col-sm-6">
+                <img class="wow fadeInUp img-responsive" data-wow-duration="0.6s" src="img/ceo-full.png" alt="theme-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION FOOTER -->
+    <!--===============================================================-->
+    
+    <!--SECTION FOOTER BOTTOM -->
+    <!--===============================================================-->
+    <div class="section footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center col-footer-bottom">
+            <a id="scroll-top" href="#"><i class="fa fa-angle-up fa-2x"></i></a>
+            <p class="copyright">2016 &copy; Forbidden 403. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/page.navbar-fixed-shrinked.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.js"></script>
+  <script src="js/jquery.magnific-popup.js"></script>
+  <script src="js/jquery.waypoints.js"></script>
+  <script src="js/jquery.countTo.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/page.home.js"></script>
+  <script src="js/style-switcher.js"></script>
 	<script>
-		if (jQuery("body").width() < 991) {
-			jQuery('.box-4').equalHeights();
-			jQuery('.box-3').equalHeights();
-		}
-		jQuery(window).resize(function () {
-			jQuery('.box-4, .box-3').height('auto');
-			if (jQuery("body").width() < 991) {
-				jQuery('.box-4').equalHeights();
-				jQuery('.box-3').equalHeights();
-			}
-		});
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-59515546-1', 'auto');
+	  ga('send', 'pageview');
+
 	</script>
 <script type="text/javascript">
- var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-7078796-5']);
-  _gaq.push(['_trackPageview']);
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();</script>
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
 </body>
 
 </html>
