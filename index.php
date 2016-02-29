@@ -1,4 +1,51 @@
+<?php
+@session_start();
 
+#if ( !isset($_SESSION['userId']) ){
+#	header("Location: index.php");
+#	die;
+#}
+
+#include 'db.php';
+
+if ( isset($_GET['m']) ){
+	switch($_GET['m']) {
+
+		case "manifest":
+			$paginaPHP = "php/manifest.php";
+		break;
+		case "USExports":
+			$paginaPHP = "php/USExports.php";
+		break;
+		case "WMLogistics":
+			$paginaPHP = "php/WMLogistics.php";
+		break;
+		case "USImports":
+			$paginaPHP = "php/USImports.php";
+		break;
+		case "About":
+			$paginaPHP = "php/About.php";
+			break;
+		case "Electronicexport":
+			$paginaPHP = "php/Electronicexport.php";
+			break;
+		case "ACEemanifest":
+			$paginaPHP = "php/ACEemanifest.php";
+		break;
+		case "Warehouse":
+			$paginaPHP = "php/Warehouse.php";
+		break;
+    default:
+      $paginaPHP = "php/index-1.php";
+
+	}
+} else {
+	$paginaPHP = "php/index-1.php";
+}
+
+$errorMsg = "";
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,11 +78,10 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
-
+</head>
 <body class="body-nav-fixed-menu-top">
-  <div class="wrapper-body">
-
-    <!-- NAVBAR -->
+<div class="wrapper-body">
+	<!-- NAVBAR -->
     <!--===============================================================-->
     <div id="header">
       <nav id="nav" class="navbar navbar-default navbar-fixed-top">
@@ -92,7 +138,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.php"><img class="img-responsive" src="img/imexlogo.png" alt="theme-img"></a>
+            <a class="navbar-brand" href="index.php?m=index-1"><img class="img-responsive" src="img/imexlogo.png" alt="theme-img"></a>
           </div>
 
           <div id="navbar" class="navbar-collapse collapse">
@@ -101,7 +147,7 @@
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Home</a>
                 <ul class="dropdown-menu dropdown-menu-left" role="menu">
-                  <li><a href="index.php">Index</a></li>
+                  <li><a href="index.php?m=index-1">Index</a></li>
                   
                 </ul>
               </li>
@@ -113,34 +159,40 @@
                   <li class="dropdown-submenu">
                     <a href="#">Services</a>
                     <ul class="dropdown-menu" role="menu">
-                      <li><a href="manifest.php">Manifest</a></li>
-                      <li><a href="USExports.php">US Exports</a></li>
-                      <li><a href="USImports.php">US Imports</a></li>
-                      <li><a href="WMLogistics.php">WMLogistics</a></li>
+                      <li><a href="index.php?m=manifest">Manifest</a></li>
+                      <li><a href="index.php?m=USExports">US Exports</a></li>
+                      <li><a href="index.php?m=USImports">US Imports</a></li>
+                      <li><a href="index.php?m=WMLogistics">WMLogistics</a></li>
+                      <li><a href="index.php?m=Electronicexport">Electronic Export</a></li>
+                      <li><a href="index.php?m=#">Freight Management</a></li>
+                      <li><a href="index.php?m=#">US Customs Clearance</a></li>
+                      <li><a href="index.php?m=ACEemanifest">US Truck E-Manifest</a></li>
+                      <li><a href="index.php?m=Warehouse">Werehouse Management</a></li>
+                      <li><a href="index.php?m=#">Yard Management</a></li>
                     </ul>
                   </li>
                 </ul>
               </li>
 
               <li class="li-mega-menu dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">News</a>
+                <a href="index.php?m=#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">News</a>
                 
               </li>
 
               <li class="dropdown">
                 <a href="About.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About Us</a>
                 <ul class="dropdown-menu dropdown-menu-left" role="menu">
-                 <li><a href="About.php">About Us</a></li>
+                 <li><a href="index.php?m=About">About Us</a></li>
                 </ul>
               </li>
 
               <li class="li-mega-menu dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Downloads</a>
+                <a href="index.php?m=#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Downloads</a>
                 
               </li>
 
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Support</a>
+                <a href="index.php?m=#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Support</a>
                 <ul class="dropdown-menu dropdown-menu-left" role="menu">
 
                 </ul>
@@ -158,242 +210,11 @@
         </div>
       </nav>
     </div>
-    <!-- NAVBAR END -->
 
-    <!-- SECTION INTRO SLIDER -->
-    <!--===============================================================-->
-    <div class="section-intro-index section-slider">
-      <div class="layer-intro layer-intro-index">
-        <!-- SLIDER -->
-        <div class="wrapper-slider" id="intro-slider-wrapper">
-          <div class="carousel slide carousel-intro" id="carousel-intro" data-ride="carousel" data-interval="7500">
-            <div class="wrapper-preloader">
-              <div id="preloader"></div>
-            </div>
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-intro" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-intro" data-slide-to="1"></li>
-              <li data-target="#carousel-intro" data-slide-to="2"></li>
-            </ol>
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-              <!-- first slide -->
-              <div class="item item-theme-first active">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-sm-7">
-                      <h1 class="text-theme title-xl mt-40 animation an-delay-05 an-duration-04 fadeInLeftSlider">Multipurpose, Unlimited Options In Our Systems</h1>
-                      <p class="text-theme lead animation an-delay-09 an-duration-04 fadeInUpSlider">Hire our Systems with Adapted & Unlimited Possibilities.</p>
-                      <a class="text-theme btn btn-primary btn-lg animation an-delay-13 an-duration-04 fadeInRightSlider">Get Started</a>
-                    </div>
-                    <div class="col-sm-5 hidden-xs">
-                      <img class="pull-right animation an-delay-19 an-duration-04 fadeInUpSlider" src="img/12.png" alt="theme-img">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- second slide -->
-              <div class="item item-theme">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-sm-6">
-                      <h1 class="text-theme title-xl mt-40 animation an-delay-05 an-duration-04 fadeInUpSlider">Alliance</h1>
-                      <p class="text-theme lead animation an-delay-07 an-duration-04 fadeInRightSlider">Aduasis Integration from SIS Logistica.</p>
-                      <ul class="list-unstyled list-md text-theme">
-                        <li class="animation an-delay-09 an-duration-04 fadeInLeftSlider"><i class="fa fa-check fa-round"></i>Production Planning</li>
-                        <li class="animation an-delay-11 an-duration-04 fadeInLeftSlider"><i class="fa fa-code fa-round"></i>Import/Export Systems</li>
-                        <li class="animation an-delay-13 an-duration-04 fadeInLeftSlider"><i class="fa fa-cloud-download fa-round"></i>Business Solutions</li>
-                      </ul>
-                    </div>
-                    <div class="col-sm-5 col-sm-offset-1 hidden-xs">
-                      <img class="img-responsive img-slide-2 pull-right mt-20 animation an-delay-18 an-duration-04 fadeInUpSlider" src="img/imacs.png" alt="theme-img">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- third slide -->
-              <div class="item item-theme">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-sm-5 hidden-xs">
-                      <img class="img-responsive img-slide-3 pull-right mt-30 animation an-delay-05 an-duration-04 fadeInLeftSlider" src="img/macbook-mockup.png" alt="theme-img">
-                    </div>
-                    <div class="col-sm-6 col-sm-offset-1">
-                      <h1 class="text-theme title-xl mt-40 animation an-delay-08 an-duration-04 fadeInRightSlider">Everything you need in one System</h1>
-                      <p class="text-theme lead animation an-delay-11 an-duration-04 fadeInUpSlider"></p>
-                      <ul class="list-unstyled list-md text-theme">
-                        <li class="animation an-delay-14 an-duration-04 fadeInRightSlider"><i class="fa fa-check fa-round"></i>Responsive</li>
-                        <li class="animation an-delay-16 an-duration-04 fadeInRightSlider"><i class="fa fa-code fa-round"></i>Ui Elements</li>
-                        <li class="animation an-delay-18 an-duration-04 fadeInRightSlider"><i class="fa fa-cloud-download fa-round"></i>Fast</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- SLIDER END-->
-      </div>
-      <!-- Controls -->
-      <a href="#carousel-intro" role="button" data-slide="prev">
-        <i class="fa fa-angle-left fa-2x btn-prev-intro"></i>
-      </a>
-      <a href="#carousel-intro" role="button" data-slide="next">
-        <i class="fa fa-angle-right fa-2x btn-next-intro"></i>
-      </a>
-    </div>
-
-    <!-- SECTION CALL-TO -->
-    <!--===============================================================-->
-    <div class="section section-xs section-both section-primary section-call-to">
-      <div class="container">
-        <div class="row text-center-xs">
-          <div class="col-sm-9">
-            <h3 class="title-md">IMEXSOL - Is your best way on Import/Export Software Solutions</h3>
-          </div>
-          <div class="col-sm-3 text-right text-center-xs">
-            <a class="btn btn-ghost-white btn-lg"><i class="fa fa-cloud-download"></i>Buy Now</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- SEECTION FEATURES -->
-    <!--===============================================================-->
-    <div class="section section-sm section-both">
-      <div class="container">
-        <div class="row">
-          <!-- FEATURES -->
-          <div class="col-sm-3">
-            <div class="icon-box">
-              <i class="fa fa-bar-chart-o fa-round fa-4x text-theme"></i>
-              <h3 class="title-sm text-theme-sm text-theme">BLAZING FAST</h3>
-              <p class="text-theme-sm"> Our Systems Time Answer Responds
-                <br>to a Blink of an Eye.</p>
-            </div>
-          </div>
-          <!-- FEATURES -->
-          <div class="col-sm-3">
-            <div class="icon-box">
-              <i class="fa fa-cogs fa-round fa-4x text-theme"></i>
-              <h3 class="title-sm text-theme-sm text-theme">WEB CUSTOMIZATION</h3>
-              <p class="text-theme-sm">Our systems are based on Web code
-                <br>to get a new view and communication through it</p>
-            </div>
-          </div>
-          <!-- FEATURES -->
-          <div class="col-sm-3">
-            <div class="icon-box">
-              <i class="fa fa-paper-plane fa-round fa-4x text-theme"></i>
-              <h3 class="title-sm text-theme-sm text-theme">GREAT FEATURES</h3>
-              <p class="text-theme-sm">Responsive code managed on our systems 
-                <br>to adapt our softwares to any Cellphone or Gadget.</p>
-            </div>
-          </div>
-          <!-- FEATURES -->
-          <div class="col-sm-3">
-            <div class="icon-box">
-              <i class="fa fa-code fa-round fa-4x text-theme"></i>
-              <h3 class="title-sm text-theme-sm text-theme">USER FRIENDLY</h3>
-              <p class="text-theme-sm">Friendly Interfaces to get the
-                <br>user into it, and work safely.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- SECTION -->
-    <!--===============================================================-->
-    <div class="section section-sm section-both">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-7">
-            <h3 class="text-theme title-lg">Great Tools to Start With</h3>
-            <p class="text-theme">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur auctor. Aliquam nec ultricies dolor. Aliquam ornare posuere purus, sed gravida magna venenatis eu.</p>
-            <ul class="text-theme list-unstyled list-xl">
-              <li><i class="fa fa-cogs fa-2x fa-round bg"></i><span>Easily customizable, made for developers</span></li>
-              <li><i class="fa fa-code fa-2x fa-round bg"></i><span>7/24 Customer Support</span></li>
-              <li><i class="fa fa-cloud-download fa-2x fa-round bg"></i><span>Experienced Team</span></li>
-              <li><i class="fa fa-bolt fa-2x fa-round bg"></i><span>Joyful Experience</span></li>
-              <li><i class="fa fa-rocket fa-2x fa-round bg"></i><span>Rocket Fast</span></li>
-              <li><i class="fa fa-paypal fa-2x fa-round bg"></i><span>Rocket Fast</span></li>
-            </ul>
-          </div>
-          <div class="col-sm-5">
-            <img class="img-responsive pull-right" src="img/imac.png" alt="theme-img">
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- SECTION COUNT -->
-    <!--===============================================================-->
-    <div class="section-polygonal-black section-arrow-bottom">
-      <div class="opacity-layer section section-both section-lg">
-        <div class="container">
-          <div id="count-wrapper" class="row">
-            <div class="col-sm-3">
-              <div class="icon-box">
-                <i class="fa fa-coffee fa-4x text-theme-sm"></i>
-                <h3 class="title-count title-lg text-theme-sm hr" data-from="25" data-speed="1400" data-refresh-interval="50" data-to="75">0</h3>
-                <h3 class="title-md text-theme-sm">COFFEES</h3>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="icon-box">
-                <i class="fa fa-code fa-4x text-theme-sm"></i>
-                <h3 class="title-count title-lg text-theme-sm hr" data-from="25" data-speed="1400" data-refresh-interval="50" data-to="4228">0</h3>
-                <h3 class="title-md text-theme-sm">LINES OF CODE</h3>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="icon-box">
-                <i class="fa fa-cloud-download fa-4x text-theme-sm"></i>
-                <h3 class="title-count title-lg text-theme-sm hr" data-from="25" data-speed="1400" data-refresh-interval="50" data-to="110">0</h3>
-                <h3 class="title-md text-theme-sm">DOWNLOADED</h3>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="icon-box">
-                <i class="fa fa-rocket fa-4x text-theme-sm"></i>
-                <h3 class="title-count title-lg text-theme-sm hr" data-from="25" data-speed="1400" data-refresh-interval="50" data-to="201">0</h3>
-                <h3 class="title-md text-theme-sm">TIMES</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- SECTION WORK AND CLIENTS -->
-    <!--===============================================================-->
-   
-    <!-- SECTION CEO -->
-    <!--===============================================================-->
-    <div class="section-ceo section section-sm section-top ">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-sm-push-6">
-            <h3 class="text-theme title-lg">Our Ceo Says "This is the Best System In The World"</h3>
-            <p class="text-theme lead">Save time & money with our web portal and premium support.</p>
-            <a class="text-theme btn btn-primary btn-lg"><i class="fa fa-shopping-cart"></i>Buy Now</a>
-          </div>
-          <div class="col-sm-6 col-sm-pull-6">
-            <div class="row">
-              <div class="col-sm-6">
-                <img class="wow fadeInUp img-responsive" data-wow-duration="0.6s" src="img/ceo-full.png" alt="theme-img">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- SECTION FOOTER -->
-    <!--===============================================================-->
-    
-    <!--SECTION FOOTER BOTTOM -->
-    <!--===============================================================-->
+    <section class="scrollable wrapper w-f">
+	<?php include $paginaPHP; ?>
+	</section>
+       <!--===============================================================-->
     <div class="section footer-bottom">
       <div class="container">
         <div class="row">
@@ -405,7 +226,10 @@
       </div>
     </div>
   </div>
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- NAVBAR END -->
+	<!-- Bootstrap -->
+	<!-- App -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/page.navbar-fixed-shrinked.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -433,5 +257,4 @@
 /* ]]> */
 </script>
 </body>
-
 </html>
