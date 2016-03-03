@@ -129,10 +129,10 @@
       <div class="container">
         <div class="row text-center-xs">
           <div class="col-sm-9">
-            <h3 class="title-md">IMEXSOL - Is your best way on Import/Export Software Solutions</h3>
+            <h3 class="title-md"></h3>
           </div>
           <div class="col-sm-3 text-right text-center-xs">
-            <a class="btn btn-ghost-white btn-lg"><i class="fa fa-cloud-download"></i>Buy Now</a>
+            <a class="btn btn-ghost-white btn-lg"><i class="fa fa-cloud-download"></i>Contact Us</a>
           </div>
         </div>
       </div>

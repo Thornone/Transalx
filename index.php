@@ -35,6 +35,12 @@ if ( isset($_GET['m']) ){
 		case "Warehouse":
 			$paginaPHP = "php/Warehouse.php";
 		break;
+    case "Accounting":
+      $paginaPHP = "php/Accounting.php";
+    break;
+    case "Customs":
+      $paginaPHP = "php/Customs.php";
+    break;
     default:
       $paginaPHP = "php/index-1.php";
 
@@ -89,8 +95,7 @@ $errorMsg = "";
           <div class="container">
             <div class="row">
               <div class="col-sm-5 hidden-xs">
-                <a class="title-menu-top display-inline-block" href="/cdn-cgi/l/email-protection#fc8f898c8c938e88bc99849d918c9099d29f9391"><span class="__cf_email__" data-cfemail="31424441415e4345715449505c415d541f525e5c">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
-/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></a>
+                <a class="title-menu-top display-inline-block" href="mailto:support@imexsol.com">support@imexsol.com</a>
               </div>
               <div class="col-sm-7 col-xs-12">
                 <div class="pull-right">
@@ -157,19 +162,27 @@ $errorMsg = "";
                 <ul class="dropdown-menu dropdown-menu-left" role="menu">
 
                   <li class="dropdown-submenu">
-                    <a href="#">Services</a>
+                    <a href="#">US Customs Clearance</a>
                     <ul class="dropdown-menu" role="menu">
-                      <li><a href="index.php?m=manifest">Manifest</a></li>
-                      <li><a href="index.php?m=USExports">US Exports</a></li>
-                      <li><a href="index.php?m=USImports">US Imports</a></li>
+                      <li><a href="index.php?m=manifest">Ace Entries</a></li>
+                      <li><a href="index.php?m=USExports">Foreign Trade Zone</a></li>
+                      <li><a href="index.php?m=USImports">Inbounds</a></li>
                       <li><a href="index.php?m=WMLogistics">WMLogistics</a></li>
-                      <li><a href="index.php?m=Electronicexport">Electronic Export</a></li>
-                      <li><a href="index.php?m=#">Freight Management</a></li>
-                      <li><a href="index.php?m=#">US Customs Clearance</a></li>
-                      <li><a href="index.php?m=ACEemanifest">US Truck E-Manifest</a></li>
-                      <li><a href="index.php?m=Warehouse">Werehouse Management</a></li>
-                      <li><a href="index.php?m=#">Yard Management</a></li>
+                      <li><a href="index.php?m=Electronicexport">Electronic Export Information</a></li>
+                      
+                      <li><a href="index.php?m=Customs">US Customs Clearance</a></li>
+                      <li><a href="index.php?m=ACEemanifest">Truck E-Manifest</a></li>   
                     </ul>
+
+                    <li class="dropdown-submenu">
+                    <a href="#">Trade And Logistics</a>
+                    <ul class="dropdown-menu" role="menu">
+                    <li><a href="index.php?m=Warehouse">Warehouse Management System</a></li>
+                    <li><a href="index.php?m=#">Freight Management</a></li>
+                    <li><a href="index.php?m=#">Yard Management</a></li>
+                    <li><a href="index.php?m=Accounting">Accounting System</a></li>
+                    </ul>
+                    </li>
                   </li>
                 </ul>
               </li>

@@ -34,7 +34,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <h1 class="heading-page text-center-xs">US Imports</h1>
+            <h1 class="heading-page text-center-xs">Inbounds</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb text-right text-center-xs">
@@ -44,7 +44,7 @@
               <li>
                 <a href="#">Solutions</a>
               </li>
-              <li class="active">US Imports</li>
+              <li class="active">Inbounds</li>
             </ol>
           </div>
         </div>

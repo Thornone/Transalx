@@ -46,7 +46,7 @@
               <li>
                 <a href="#">Solutions</a>
               </li>
-              <li class="active">Manifest</li>
+              <li class="active">Ace Entries</li>
             </ol>
           </div>
         </div>
