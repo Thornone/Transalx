@@ -69,7 +69,7 @@
 <div class="row"> 
 <div class="col-sm-12">
 
-            <img class="img-responsive center-block" src="img/Accounting.png" alt="theme-img">
+            <img class="img-responsive center-block" src="img/Accounting.jpg" alt="theme-img">
             
 
 </div>

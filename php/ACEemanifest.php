@@ -70,7 +70,7 @@
 <div class="row"> 
 <div class="col-sm-12">
 
-            <img class="img-responsive center-block" src="img/ACEManifest.png" alt="theme-img">
+            <img class="img-responsive center-block" src="img/ACEManifest.jpg" alt="theme-img">
             
 
 </div>

@@ -69,7 +69,7 @@
 <div class="row"> 
 <div class="col-sm-12">
 
-            <img class="img-responsive center-block" src="img/eexport.png" alt="theme-img">
+            <img class="img-responsive center-block" src="img/eexport.jpg" alt="theme-img">
             
 
 </div>
@@ -105,11 +105,7 @@
 
     <!-- SECTION FOOTER -->
     <!--===============================================================-->
-    <div class="section footer">
-      <div class="container">
-        
-      </div>
-    </div>
+    
     <!--SECTION FOOTER BOTTOM -->
     <!--===============================================================-->
     

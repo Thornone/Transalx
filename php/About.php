@@ -88,7 +88,7 @@
 <div class="row"> 
 <div class="col-sm-12">
 
-            <img class="img-responsive center-block" src="img/customers.png" alt="theme-img">
+            <img class="img-responsive center-block" src="img/customers.jpg" alt="theme-img">
             
 
 </div>
@@ -98,7 +98,7 @@
 <div class="row"> 
 <div class="col-sm-12">
 
-            <img class="img-responsive center-block" src="img/choose.png" alt="theme-img">
+            <img class="img-responsive center-block" src="img/choose.jpg" alt="theme-img">
             
 
 </div>
