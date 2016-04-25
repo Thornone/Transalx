@@ -97,13 +97,12 @@
                       <img class="img-responsive img-slide-3 pull-right mt-30 animation an-delay-05 an-duration-04 fadeInLeftSlider" src="img/macbook-mockup.png" alt="theme-img">
                     </div>
                     <div class="col-sm-6 col-sm-offset-1">
-                      <h1 class="text-theme title-xl mt-40 animation an-delay-08 an-duration-04 fadeInRightSlider">Everything you need in one System</h1>
+                      <h1 class="text-theme title-xl mt-40 animation an-delay-08 an-duration-04 fadeInRightSlider">Everything you need.</h1>
                       <p class="text-theme lead animation an-delay-11 an-duration-04 fadeInUpSlider"></p>
                       <ul class="list-unstyled list-md text-theme">
-                        <li class="animation an-delay-14 an-duration-04 fadeInRightSlider"><i class="fa fa-check fa-round"></i>Maximize your time</li>
-                        <li class="animation an-delay-16 an-duration-04 fadeInRightSlider"><i class="fa fa-code fa-round"></i>Avoid errors</li>
-                        <li class="animation an-delay-18 an-duration-04 fadeInRightSlider"><i class="fa fa-cloud-download fa-round"></i>Improve your business operations and procedures</li>
-                        <li class="animation an-delay-18 an-duration-04 fadeInRightSlider"><i class="fa fa-paypal fa-round"></i>Delivery results</li>
+                        <li class="animation an-delay-14 an-duration-04 fadeInRightSlider"><i class="fa fa-check fa-round"></i>Best Solution for your Business</li>
+                        <li class="animation an-delay-16 an-duration-04 fadeInRightSlider"><i class="fa fa-code fa-round"></i>Integrated Solution for your Business</li>
+                        <li class="animation an-delay-18 an-duration-04 fadeInRightSlider"><i class="fa fa-cloud-download fa-round"></i>Professional Solution for your Business</li>
                       </ul>
                     </div>
                   </div>
@@ -138,98 +137,59 @@
       </div>
     </div>
 
-    <!-- SEECTION FEATURES -->
-    <!--===============================================================-->
-    <div class="section section-sm section-both">
-      <div class="container">
-        <div class="row">
-          <!-- FEATURES -->
-          <div class="col-sm-3">
-            <div class="icon-box">
-              <i class="fa fa-bar-chart-o fa-round fa-4x text-theme"></i>
-              <h3 class="title-sm text-theme-sm text-theme">BLAZING FAST</h3>
-              <p class="text-theme-sm"> Powerful Extraction, Transformation
-                <br>and Load Tools.</p>
-            </div>
-          </div>
-          <!-- FEATURES -->
-          <div class="col-sm-3">
-            <div class="icon-box">
-              <i class="fa fa-cogs fa-round fa-4x text-theme"></i>
-              <h3 class="title-sm text-theme-sm text-theme">WEB CUSTOMIZATION</h3>
-              <p class="text-theme-sm">Low cost High availability on
-                <br>Cloud Services</p>
-            </div>
-          </div>
-          <!-- FEATURES -->
-          <div class="col-sm-3">
-            <div class="icon-box">
-              <i class="fa fa-paper-plane fa-round fa-4x text-theme"></i>
-              <h3 class="title-sm text-theme-sm text-theme">GREAT FEATURES</h3>
-              <p class="text-theme-sm">Secure Digital Archiving and 
-                <br>Paperless environment.</p>
-            </div>
-          </div>
-          <!-- FEATURES -->
-          <div class="col-sm-3">
-            <div class="icon-box">
-              <i class="fa fa-code fa-round fa-4x text-theme"></i>
-              <h3 class="title-sm text-theme-sm text-theme">USER FRIENDLY</h3>
-              <p class="text-theme-sm">Easy to use and flexible, based
-                <br>on Business Objects.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    
-
     <!-- SECTION -->
     <!--===============================================================-->
     <div class="section section-sm section-both">
       <div class="container">
         <div class="row">
-          <div class="col-sm-7">
-            <h3 class="text-theme title-lg">Great Tools to Start With</h3>
+          <div class="col-sm-4">
+            <h3 class="text-theme title-lg">Categories</h3>
             <ul class="text-theme list-unstyled list-xl">
-              <li><i class="fa fa-cogs fa-2x fa-round bg"></i><span>Shipper Export Declaration history query.</span></li>
-              <li><i class="fa fa-code fa-2x fa-round bg"></i><span>Prevalidations prior to send to CBP/Census</span></li>
-              <li><i class="fa fa-cloud-download fa-2x fa-round bg"></i><span>Audit allows power users to view user modifications to EEI’s.</span></li>
-              <li><i class="fa fa-bolt fa-2x fa-round bg"></i><span>Reports can easily be emailed and exported to multiple formats(pdf,xls,doc,tiff).</span></li>
-              <li><i class="fa fa-rocket fa-2x fa-round bg"></i><span>EDI integrations (XML, Flat files, MainX30, Custom files).</span></li>
-              <li><i class="fa fa-paypal fa-2x fa-round bg"></i><span>Integration Alliance with Aduasis and GlobalPC</span></li>
+              <li><i class="fa fa-cogs fa-2x fa-round bg"></i><span>ABI NEWS</span></li>
+              <li><i class="fa fa-code fa-2x fa-round bg"></i><span>ACE TRUCK NEWS</span></li>
+              <li><i class="fa fa-cloud-download fa-2x fa-round bg"></i><span>ELECTRONIC EXPORT NEWS</span></li>
+              <li><i class="fa fa-bolt fa-2x fa-round bg"></i><span>IMEXSOL NEWS</span></li>
+              <li><i class="fa fa-rocket fa-2x fa-round bg"></i><span>LOGISTICS NEWS</span></li>
             </ul>
           </div>
-          <div class="col-sm-5">
+          <div class="col-sm-4">
             <img class="img-responsive pull-right" src="img/imac.png" alt="theme-img">
           </div>
+          <div class="col-sm-2">
+            <div class="icon-box">
+              <i class="fa fa-bar-chart-o fa-round fa-4x text-theme"></i>
+              <h3><a href="index.php?m=USImports">US Imports</a></h3><br>
+              
+            </div>
+          </div>
+          <!-- FEATURES -->
+          <div class="col-sm-2">
+            <div class="icon-box">
+              <i class="fa fa-cogs fa-round fa-4x text-theme"></i>
+              <h3><a href="index.php?m=WMLogistics">WMLogistics</a></h3><br>
+              
+            </div>
+          </div>
+          <!-- FEATURES -->
+          <div class="col-sm-2">
+            <div class="icon-box">
+              <i class="fa fa-paper-plane fa-round fa-4x text-theme"></i>
+              <h3><a href="index.php?m=USExports">US Exports Declarations</a></h3><br>
+              
+            </div>
+          </div>
+          <!-- FEATURES -->
+          <div class="col-sm-2">
+            <div class="icon-box">
+              <i class="fa fa-code fa-round fa-4x text-theme"></i>
+              <h3><a href="index.php?m=manifest">Ace Entries</a></h3><br>
+              
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="section section-sm section-both">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-5">
-            <h3 class="text-theme title-lg">Werehouse Management system</h3>
-            <ul class="text-theme list-unstyled list-xl">
-              <li><i class="fa fa-cogs fa-2x fa-round bg"></i><span>EDI Expected Receipts</span></li>
-              <li><i class="fa fa-code fa-2x fa-round bg"></i><span>Parcel Arrivals</span></li>
-              <li><i class="fa fa-cloud-download fa-2x fa-round bg"></i><span>Pending to Receipt</span></li>
-              <li><i class="fa fa-bolt fa-2x fa-round bg"></i><span>Arrivals/OSD(Over,Short,Damage) Notifications</span></li>
-              <li><i class="fa fa-rocket fa-2x fa-round bg"></i><span>EDI/OnlinePickups.</span></li>
-              <li><i class="fa fa-paypal fa-2x fa-round bg"></i><span>Pick Order Priorities</span></li>
-              <li><i class="fa fa-bar-chart-o fa-2x fa-round bg"></i><span>Inventory Online Report</span></li>
-              <li><i class="fa fa-paypal fa-2x fa-round bg"></i><span>Pick and Pack Orders</span></li>
-              <li><i class="fa fa-cloud-download fa-2x fa-round bg"></i><span>Key Performance Indicators</span></li>
-            </ul>
-          </div>
-          <div class="col-sm-7">
-            <img class="img-responsive pull-right" src="img/imexinventory.png" alt="theme-img">
-          </div>
-        </div>
-      </div>
-    </div>
+    
     
     <div class="container">
 <div class="row"> 
@@ -247,67 +207,31 @@
 </div>
 </div>
 </div>
+
+<div class="container">
+<div class="row"> 
+<div class="col-sm-4">
+  <h1>Our Advantages.
+       <br>
+       <small>Send us your request for a Demo</small> <br>
+       <small>After we check your requirements we can do pilot program where you can verify the benefits of our solutions.</small>
+</div>
+<div class="col-sm-4">
+  <h1>IMEXSOL
+       <br>
+       <small>We generate solutions to integrate your international Trade requirements with your Customers and Providers</small> <br>
+</div>
+<div class="col-sm-4">
+  <h1>Contact Us
+       <br>
+       <small>‘Give us your information. We can help you.</small> <br>
+</div>
+</div>
+</div>
     <!-- SECTION COUNT -->
     <!--===============================================================-->
-    <div class="section-polygonal-black section-arrow-bottom">
-      <div class="opacity-layer section section-both section-lg">
-        <div class="container">
-          <div id="count-wrapper" class="row">
-            <div class="col-sm-3">
-              <div class="icon-box">
-                <i class="fa fa-coffee fa-4x text-theme-sm"></i>
-                <h3 class="title-count title-lg text-theme-sm hr" data-from="25" data-speed="1400" data-refresh-interval="50" data-to="75">0</h3>
-                <h3 class="title-md text-theme-sm">COFFEES</h3>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="icon-box">
-                <i class="fa fa-code fa-4x text-theme-sm"></i>
-                <h3 class="title-count title-lg text-theme-sm hr" data-from="25" data-speed="1400" data-refresh-interval="50" data-to="4228">0</h3>
-                <h3 class="title-md text-theme-sm">LINES OF CODE</h3>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="icon-box">
-                <i class="fa fa-cloud-download fa-4x text-theme-sm"></i>
-                <h3 class="title-count title-lg text-theme-sm hr" data-from="25" data-speed="1400" data-refresh-interval="50" data-to="110">0</h3>
-                <h3 class="title-md text-theme-sm">DOWNLOADED</h3>
-              </div>
-            </div>
-            <div class="col-sm-3">
-              <div class="icon-box">
-                <i class="fa fa-rocket fa-4x text-theme-sm"></i>
-                <h3 class="title-count title-lg text-theme-sm hr" data-from="25" data-speed="1400" data-refresh-interval="50" data-to="201">0</h3>
-                <h3 class="title-md text-theme-sm">TIMES</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- SECTION WORK AND CLIENTS -->
-    <!--===============================================================-->
-   
-    <!-- SECTION CEO -->
-    <!--===============================================================-->
-    <div class="section-ceo section section-sm section-top ">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-sm-push-6">
-            <h3 class="text-theme title-lg">Our Ceo Says "This is the Best System In The World"</h3>
-            <p class="text-theme lead">We believe in what you are doing, the best work of the world has been done against seeming impossibilities. Our thing is to help you to get  the work done.</p>
-            <a class="text-theme btn btn-primary btn-lg"><i class="fa fa-shopping-cart"></i>Buy Now</a>
-          </div>
-          <div class="col-sm-6 col-sm-pull-6">
-            <div class="row">
-              <div class="col-sm-6">
-                <img class="wow fadeInUp img-responsive" data-wow-duration="0.6s" src="img/ceo-full.png" alt="theme-img">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
+    
     <!-- SECTION FOOTER -->
     <!--===============================================================-->
     

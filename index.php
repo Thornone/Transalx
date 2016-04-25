@@ -161,28 +161,16 @@ $errorMsg = "";
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Solutions</a>
                 <ul class="dropdown-menu dropdown-menu-left" role="menu">
 
-                  <li class="dropdown-submenu">
-                    <a href="#">US Customs Clearance</a>
-                    <ul class="dropdown-menu" role="menu">
-                      <li><a href="index.php?m=manifest">Ace Entries</a></li>
-                      <li><a href="index.php?m=USExports">Foreign Trade Zone</a></li>
-                      <li><a href="index.php?m=USImports">Inbounds</a></li>
+                  <li class="dropdown-submenu" role="menu">
+                    <li><a href="index.php?m=manifest">Ace Entries</a></li>
+                      <li><a href="index.php?m=USExports">US Exports Declarations</a></li>
+                      <li><a href="index.php?m=USImports">US Imports</a></li>
                       <li><a href="index.php?m=WMLogistics">WMLogistics</a></li>
-                      <li><a href="index.php?m=Electronicexport">Electronic Export Information</a></li>
-                      
-                      <li><a href="index.php?m=Customs">US Customs Clearance</a></li>
-                      <li><a href="index.php?m=ACEemanifest">Truck E-Manifest</a></li>   
+                    <ul class="dropdown-menu" role="menu">
+ 
                     </ul>
 
-                    <li class="dropdown-submenu">
-                    <a href="#">Trade And Logistics</a>
-                    <ul class="dropdown-menu" role="menu">
-                    <li><a href="index.php?m=Warehouse">Warehouse Management System</a></li>
-                    <li><a href="index.php?m=#">Freight Management</a></li>
-                    <li><a href="index.php?m=#">Yard Management</a></li>
-                    <li><a href="index.php?m=Accounting">Accounting System</a></li>
-                    </ul>
-                    </li>
+                    
                   </li>
                 </ul>
               </li>

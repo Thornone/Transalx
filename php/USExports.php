@@ -35,7 +35,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <h1 class="heading-page text-center-xs">Foreign Trade Zone</h1>
+            <h1 class="heading-page text-center-xs">US Exports Declarations (AES)</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb text-right text-center-xs">
@@ -45,7 +45,7 @@
               <li>
                 <a href="#">Solutions</a>
               </li>
-              <li class="active">Foreign Trade Zone</li>
+              <li class="active">US Exports Declarations (AES)</li>
             </ol>
           </div>
         </div>
