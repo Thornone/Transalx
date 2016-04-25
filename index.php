@@ -165,7 +165,7 @@ $errorMsg = "";
                     <li><a href="index.php?m=manifest">Ace Entries</a></li>
                       <li><a href="index.php?m=USExports">US Exports Declarations</a></li>
                       <li><a href="index.php?m=USImports">US Imports</a></li>
-                      <li><a href="index.php?m=WMLogistics">WMLogistics</a></li>
+                      <li><a href="index.php?m=WMLogistics">WM Logistics</a></li>
                     <ul class="dropdown-menu" role="menu">
  
                     </ul>
